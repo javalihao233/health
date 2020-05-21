@@ -6,9 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12a2d7f7-05cb-4b51-ba27-b6de49bf15fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test" afterDir="false" />
+    <list default="true" id="12a2d7f7-05cb-4b51-ba27-b6de49bf15fc" name="Default Changelist" comment="第四次提交  修改了test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,7 +87,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -204,7 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/health_manager/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/vue_demo/src/main/webapp/demo7.html" />
         <option value="$PROJECT_DIR$/vue_demo/src/main/webapp/demo9.html" />
         <option value="$PROJECT_DIR$/health_common/pom.xml" />
@@ -255,6 +258,7 @@
         <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html" />
         <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/main.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/test" />
       </list>
     </option>
   </component>
@@ -336,7 +340,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590081293876" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590081694705" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -966,7 +970,7 @@
       <workItem from="1589723470738" duration="683000" />
       <workItem from="1589805314220" duration="111000" />
       <workItem from="1589968594319" duration="6437000" />
-      <workItem from="1590079261840" duration="1533000" />
+      <workItem from="1590079261840" duration="2039000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1590081113357</created>
@@ -975,7 +979,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590081113357</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第三次提交">
+      <created>1590081197421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590081197421</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第四次提交  修改了test">
+      <created>1590081341538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590081341538</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -993,7 +1011,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="558943000" />
+    <option name="totallyTimeSpent" value="559449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1088,7 +1106,9 @@
     <MESSAGE value="首次提交 经理" />
     <MESSAGE value="首次提交" />
     <MESSAGE value="第二次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
+    <MESSAGE value="第三次提交" />
+    <MESSAGE value="第四次提交  修改了test" />
+    <option name="LAST_COMMIT_MESSAGE" value="第四次提交  修改了test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1565,7 +1585,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
