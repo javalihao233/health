@@ -2,13 +2,41 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="health_service:war exploded" />
+      <artifact name="health_manager:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12a2d7f7-05cb-4b51-ba27-b6de49bf15fc" name="Default Changelist" comment="第四次提交  修改了test">
+    <list default="true" id="12a2d7f7-05cb-4b51-ba27-b6de49bf15fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/JdkProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/JdkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/map/HashMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/echarts/target/echarts/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/pages/checkitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/pages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/pages/setmeal.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/pages/setmeal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/target/health_service-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/target/health_service-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_demo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vue_demo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_demo/target/vue_demo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,98 +80,115 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/main.html">
+        <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
+            <state relative-caret-position="469">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/MyAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#nav#0;n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#el-dropdown-item#0;n#el-dropdown-menu#0;n#el-dropdown#0;n#div#0;n#nav#0;n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#el-dropdown-item#1;n#el-dropdown-menu#0;n#el-dropdown#0;n#div#0;n#nav#0;n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/ordersetting.html">
+        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/JdkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="209">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="57">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test">
+        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="209">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/SetmealController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/ReportController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/CrowdUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/RedisMessageConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/HttpUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/MessageConstant.java">
+        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/IUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/JdkProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/SetmealController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -162,8 +207,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>编辑</find>
-      <find>formData</find>
       <find>findPage</find>
       <find>handleDelete</find>
       <find>doDel</find>
@@ -192,6 +235,8 @@
       <find>新增</find>
       <find>rules</find>
       <find>提交</find>
+      <find>handleCreate</find>
+      <find>handleAdd()</find>
     </findStrings>
     <replaceStrings>
       <replace>http://localhost:9999/vue_demo_war_exploded/plugins</replace>
@@ -208,21 +253,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vue_demo/src/main/webapp/demo7.html" />
-        <option value="$PROJECT_DIR$/vue_demo/src/main/webapp/demo9.html" />
-        <option value="$PROJECT_DIR$/health_common/pom.xml" />
-        <option value="$PROJECT_DIR$/health_service/src/main/resources/spring-service.xml" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/resources/springmvc.xml" />
-        <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo1.java" />
-        <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/classDemo/OutClass.java" />
-        <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/OutClass.java" />
-        <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo2_2.java" />
-        <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo2_1.java" />
         <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo2.java" />
         <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo3_1.java" />
         <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo3.java" />
         <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo4.java" />
-        <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/CheckitemServiceImpl.java" />
         <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/CheckGroupServiceImpl.java" />
         <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkgroup.html" />
         <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/singleton/SingleTonObje.java" />
@@ -255,10 +289,21 @@
         <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/father/Father.java" />
         <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/father/Children.java" />
         <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/setmeal.html" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html" />
         <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/main.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test" />
+        <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html" />
+        <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/map/HashMapTest.java" />
+        <option value="$PROJECT_DIR$/health_potal/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/CheckitemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/MyAspect.java" />
+        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/IUserDao.java" />
+        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/JdkProxy.java" />
+        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/JdkTest.java" />
+        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibProxy.java" />
+        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibTest.java" />
       </list>
     </option>
   </component>
@@ -306,12 +351,14 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1220" />
-    <option name="y" value="55" />
-    <option name="width" value="1059" />
-    <option name="height" value="608" />
+    <option name="x" value="605" />
+    <option name="y" value="185" />
+    <option name="width" value="1540" />
+    <option name="height" value="610" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="true" />
@@ -329,6 +376,61 @@
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="health_parent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lihao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lihao" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lihao" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -340,7 +442,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590081694705" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590261615511" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -363,12 +465,26 @@
       <recent name="com.lihao.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\root\Desktop\health\health_parent\health_manager\src\main\webapp\pages" />
-      <recent name="C:\Users\root\Desktop\health\health_parent\health_manager\src\main\webapp\js" />
       <recent name="C:\Users\root\Desktop\health\health_parent\health_service\src\main\resources" />
       <recent name="C:\Users\root\Desktop\health\health_parent\health_manager\src\main\resources" />
+      <recent name="C:\Users\root\Desktop\health\health_parent\health_manager\src\main\webapp\pages" />
+      <recent name="C:\Users\root\Desktop\health\health_parent\health_manager\src\main\webapp\js" />
       <recent name="C:\Users\root\Desktop\health\health_parent\health_manager\src\main\webapp\plugins\echarts" />
     </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 32 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 32 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="health_manager" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -382,13 +498,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.service">
-    <configuration name="Children" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lihao.test.father.Children" />
-      <module name="java_offer" />
+  <component name="RunManager" selected="Application.CglibTest">
+    <configuration name="CglibTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lihao.jdk2.CglibTest" />
+      <module name="health_manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lihao.test.father.*" />
+          <option name="PATTERN" value="com.lihao.jdk2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,12 +512,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lihao.test.Demo5" />
+    <configuration name="Children" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lihao.test.father.Children" />
       <module name="java_offer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lihao.test.*" />
+          <option name="PATTERN" value="cn.lihao.test.father.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -422,34 +538,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PoiTest.testPoi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="apache_poi" />
+    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lihao.test.map.HashMapTest" />
+      <module name="java_offer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lihao.test.*" />
+          <option name="PATTERN" value="cn.lihao.test.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.lihao.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.lihao.test.PoiTest" />
-      <option name="METHOD_NAME" value="testPoi" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PoiTest.testUpPoi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="apache_poi" />
+    <configuration name="JdkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lihao.jdk.JdkTest" />
+      <module name="health_manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lihao.test.*" />
+          <option name="PATTERN" value="com.lihao.jdk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.lihao.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.lihao.test.PoiTest" />
-      <option name="METHOD_NAME" value="testUpPoi" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -833,24 +943,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo5" />
       <item itemvalue="Application.Demo6" />
       <item itemvalue="Application.Children" />
-      <item itemvalue="JUnit.PoiTest.testPoi" />
-      <item itemvalue="JUnit.PoiTest.testUpPoi" />
+      <item itemvalue="Application.HashMapTest" />
       <item itemvalue="Tomcat Server.potal" />
       <item itemvalue="Tomcat Server.security" />
       <item itemvalue="Tomcat Server.service" />
       <item itemvalue="Tomcat Server.manager" />
       <item itemvalue="Tomcat Server.vue" />
+      <item itemvalue="Application.JdkTest" />
+      <item itemvalue="Application.CglibTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CglibTest" />
+        <item itemvalue="Application.JdkTest" />
+        <item itemvalue="Application.HashMapTest" />
         <item itemvalue="Application.Children" />
         <item itemvalue="Application.Demo6" />
-        <item itemvalue="Application.Demo5" />
-        <item itemvalue="JUnit.PoiTest.testUpPoi" />
-        <item itemvalue="JUnit.PoiTest.testPoi" />
       </list>
     </recent_temporary>
   </component>
@@ -970,7 +1080,15 @@
       <workItem from="1589723470738" duration="683000" />
       <workItem from="1589805314220" duration="111000" />
       <workItem from="1589968594319" duration="6437000" />
-      <workItem from="1590079261840" duration="2039000" />
+      <workItem from="1590079261840" duration="7719000" />
+      <workItem from="1590132423403" duration="881000" />
+      <workItem from="1590144480568" duration="340000" />
+      <workItem from="1590144839755" duration="383000" />
+      <workItem from="1590145243503" duration="203000" />
+      <workItem from="1590145464826" duration="737000" />
+      <workItem from="1590146226156" duration="599000" />
+      <workItem from="1590230604321" duration="1575000" />
+      <workItem from="1590258971609" duration="2772000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1590081113357</created>
@@ -993,7 +1111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590081341538</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="第五次提交  为了解决冲突">
+      <created>1590081718221</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590081718221</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1011,7 +1136,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="559449000" />
+    <option name="totallyTimeSpent" value="572619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1031,18 +1156,18 @@
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.505618" side_tool="true" weight="0.17001338" />
+      <window_info id="Favorites" order="5" sideWeight="0.5069444" side_tool="true" weight="0.26238286" />
       <window_info id="Web" order="6" sideWeight="0.5058548" side_tool="true" weight="0.25769746" />
-      <window_info active="true" content_ui="combo" x="486" y="193" width="244" height="484" id="Project" order="7" sideWeight="0.49438202" visible="true" weight="0.2965194" />
+      <window_info content_ui="combo" x="486" y="193" width="244" height="484" id="Project" order="7" sideWeight="0.49305555" visible="true" weight="0.208166" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3207547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49732262" weight="0.22535211" />
-      <window_info anchor="bottom" x="21" y="280" width="1494" height="263" id="Debug" order="3" sideWeight="0.49799198" weight="0.49027777" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49732262" visible="true" weight="0.35972223" />
+      <window_info anchor="bottom" x="21" y="280" width="1494" height="263" id="Debug" order="3" sideWeight="0.49799198" weight="0.5208333" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32777777" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3263889" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3263889" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026774" side_tool="true" weight="0.39722222" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.76497006" />
@@ -1050,15 +1175,19 @@
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32957748" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.30923694" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.24899599" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.40629184" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32931727" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Tail" order="16" />
+      <window_info anchor="right" id="Word Book" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.30923694" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.24899599" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.40629184" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32931727" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Translation Assistant" order="10" weight="0.32797858" />
+      <window_info anchor="right" id="RestServices" order="11" weight="0.3299866" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" sideWeight="0.5058005" side_tool="true" weight="0.19678715" />
@@ -1108,7 +1237,8 @@
     <MESSAGE value="第二次提交" />
     <MESSAGE value="第三次提交" />
     <MESSAGE value="第四次提交  修改了test" />
-    <option name="LAST_COMMIT_MESSAGE" value="第四次提交  修改了test" />
+    <MESSAGE value="第五次提交  为了解决冲突" />
+    <option name="LAST_COMMIT_MESSAGE" value="第五次提交  为了解决冲突" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1166,236 +1296,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/spring-tx.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo2_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/sort/ComparableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/sort/StringComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/singleton/SingleTonObje.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/sort/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo2_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-          <folding>
-            <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/resources/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2223">
-          <caret line="117" column="26" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckitemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#CheckitemController#0" />
-            <element signature="docComment;method#doDel#0;class#CheckitemController#0" />
-            <element signature="method#doDel#0;class#CheckitemController#0" />
-            <element signature="e#1971#2071#0" />
-            <element signature="e#2092#2192#0" />
-            <element signature="docComment;method#getCheckitemById#0;class#CheckitemController#0" />
-            <element signature="method#getCheckitemById#0;class#CheckitemController#0" />
-            <element signature="e#2437#2581#0" />
-            <element signature="e#2602#2702#0" />
-            <element signature="docComment;method#doEdit#0;class#CheckitemController#0" />
-            <element signature="method#doEdit#0;class#CheckitemController#0" />
-            <element signature="e#2905#3013#0" />
-            <element signature="e#3034#3134#0" />
-            <element signature="docComment;method#getAllCheckItem#0;class#CheckitemController#0" />
-            <element signature="method#getAllCheckItem#0;class#CheckitemController#0" />
-            <element signature="e#3327#3464#0" />
-            <element signature="e#3485#3585#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/OutClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo3_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/SetmealService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/SetmealServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/setmeal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="134" column="59" selection-start-line="134" selection-start-column="59" selection-end-line="134" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/CheckItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1438,82 +1338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding>
-            <element signature="n#el-breadcrumb#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-table-column#3;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#template#0;n#el-table-column#3;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-table-column#6;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#template#0;n#el-table-column#6;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-pagination#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#0;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#3;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#3;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#4;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#4;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#4;n#el-form#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#0;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#3;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#3;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#4;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#4;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#4;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#4;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/CrowdUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1549,13 +1373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/SetmealController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/ReportController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1586,8 +1403,268 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkgroup.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/SetmealService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckitemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#CheckitemController#0" />
+            <element signature="docComment;method#doDel#0;class#CheckitemController#0" />
+            <element signature="method#doDel#0;class#CheckitemController#0" />
+            <element signature="e#1971#2071#0" />
+            <element signature="e#2092#2192#0" />
+            <element signature="docComment;method#getCheckitemById#0;class#CheckitemController#0" />
+            <element signature="method#getCheckitemById#0;class#CheckitemController#0" />
+            <element signature="e#2437#2581#0" />
+            <element signature="e#2602#2702#0" />
+            <element signature="docComment;method#doEdit#0;class#CheckitemController#0" />
+            <element signature="method#doEdit#0;class#CheckitemController#0" />
+            <element signature="e#2905#3013#0" />
+            <element signature="e#3034#3134#0" />
+            <element signature="docComment;method#getAllCheckItem#0;class#CheckitemController#0" />
+            <element signature="method#getAllCheckItem#0;class#CheckitemController#0" />
+            <element signature="e#3327#3464#0" />
+            <element signature="e#3485#3585#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/SetmealMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/CheckitemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/CheckitemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/SetmealServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/map/HashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8.0_221/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2166">
+          <caret line="146" column="65" selection-start-line="146" selection-start-column="65" selection-end-line="146" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/spring-tx.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/SetmealController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckGroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/com/alibaba/dubbo/config/annotation/Reference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/SetmealController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/CheckitemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/JdkProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/MyAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/JdkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>

@@ -2,13 +2,6 @@
 <html>
 
 
-
-
-
-
-
-
-
 <head>
     <!-- 页面meta -->
     <meta charset="UTF-8-BOM">
@@ -24,23 +17,6 @@
 </head>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <body class="hold-transition">
 <div id="app">
     <div class="content-header">
@@ -53,41 +29,6 @@
             <el-breadcrumb-item>检查项管理</el-breadcrumb-item>
         </el-breadcrumb>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <div class="app-container">
@@ -275,53 +216,6 @@
 </body>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- 引入组件库 -->
 <script src="../js/vue.js"></script>
 <script src="../plugins/elementui/index.js"></script>
@@ -346,8 +240,8 @@
                 //required：是否必须    message：不满足的时候提示什么信息   trigger：事件触发规则
                 code: [
                     {required: true, message: '项目编码为必填项', trigger: 'blur'},
-                    {main: 3, max: 5, message: "长度在3到5个字符",trigger: "blur"}
-                    ],
+                    {main: 3, max: 5, message: "长度在3到5个字符", trigger: "blur"}
+                ],
                 name: [{required: true, message: '项目名称为必填项', trigger: 'blur'}]
             }
         },
@@ -386,6 +280,7 @@
                     if (valid) {
                         // 执行添加检查项操作
                         axios.post("/checkitem/doAdd.do", this.formData).then((res) => {
+                            console.log(this.formData);
                             this.dialogFormVisible = false;//关闭模态框
                             if (res.data.result == "SUCCESS") {
                                 this.$message({
@@ -396,8 +291,10 @@
                                 this.$message.error("添加失败")
                             }
                             this.findPage();
-                        })
-
+                        });
+                    } else {
+                        this.$message("请检查你的输入项");
+                        return false;//可加可不加
                     }
                 });
                 // this.findPage();
@@ -418,7 +315,7 @@
             },
             // 重置表单
             resetForm() {
-                this.formData = {}
+                this.formData = {};
             },
             // 弹出添加窗口
             handleCreate() {
@@ -461,7 +358,6 @@
                         }
                         this.findPage();
                     })
-
                 })
             }
         }
