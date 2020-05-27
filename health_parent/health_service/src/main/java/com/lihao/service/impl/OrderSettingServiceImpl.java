@@ -26,14 +26,16 @@ public class OrderSettingServiceImpl implements OrderSettingService {
     public void addOrderSetting(List<OrderSetting> orderSettingList) {
         for (OrderSetting orderSetting : orderSettingList) {
             Date orderDate = orderSetting.getOrderDate();
+
             //1. 根据日期判断改日子是否设置了预约
             OrderSetting order = orderSettingMapper.getOrderSettingByDate(orderDate);
             if (order == null) {
                 //没有设置就执行添加设置操作
                 orderSettingMapper.addOrderSetting(orderSetting);
             } else {
-                //执行更新操作
-                orderSettingMapper.updateOrderSetting(orderSetting);
+                order.setNumber(orderSetting.getNumber());
+                //如果原本该日期就设置了预约人数，那么就执行更新操作
+                orderSettingMapper.updateOrderSetting(order);
             }
         }
     }
@@ -48,18 +50,24 @@ public class OrderSettingServiceImpl implements OrderSettingService {
     public List<Map> getMonthOrderSetting(String date) {
         String month_first = date + "-1";//格式2020-1-1
         String month_end = date + "-31";//格式2020-1-31
+
+//        select * from t_ordersetting where orderDate between #{month_first} and #{month_end}
+//        数据库设计的 orderDate字段是  date类型
         List<OrderSetting> list = orderSettingMapper.getMonthOrderSettingByDate(month_first, month_end);
 
         List<Map> mapList = new ArrayList<Map>();
         for (OrderSetting orderSetting : list) {
-            Date orderDate = orderSetting.getOrderDate();//格式2020-X-X
-            Integer number = orderSetting.getNumber();
 
+//            这里要说一下前端需要的参数：    日期：int类型    改日可预约数：int       日已预约日数：int
+            int dateTody = orderSetting.getOrderDate().getDate();//获取当日日期
+            Integer number = orderSetting.getNumber();//获取该日可预约日数
+            Integer reservations = orderSetting.getReservations();//获取该日已预约日数
+
+            //将数据封装成map    list里面存的是map对象
             HashMap<String, Object> hashMap = new HashMap<String, Object>();
-            hashMap.put("date", orderDate.getDate());//orderDate.getDate()：得到的是当前日子
-            hashMap.put("number", number);//可预约人数
-            hashMap.put("reservations", orderSetting.getReservations());//已预约人数
-
+            hashMap.put("date", dateTody);
+            hashMap.put("number", number);
+            hashMap.put("reservations", reservations);
             mapList.add(hashMap);
         }
         return mapList;

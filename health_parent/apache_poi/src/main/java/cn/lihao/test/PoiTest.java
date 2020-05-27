@@ -14,6 +14,7 @@ public class PoiTest {
 
     /**
      * 读取文件
+     *
      * @throws IOException
      */
     @Test
@@ -26,10 +27,13 @@ public class PoiTest {
 
         for (Row row : sheet) {//遍历出来的是每一行
 
-            for (Cell cell : row) {//每一列  即：单个单元格
-                String s = cell.getStringCellValue();
-                System.out.println(s);
+            if (row.getRowNum() != 0) {//排除第一行
+                for (Cell cell : row) {//每一列  即：单个单元格
+                    String s = cell.getStringCellValue();
+                    System.out.println(s);
+                }
             }
+
         }
 
         workbook.close();
@@ -37,6 +41,7 @@ public class PoiTest {
 
     /**
      * 上传文件写入poi
+     *
      * @throws Exception
      */
     @Test
@@ -60,7 +65,7 @@ public class PoiTest {
         row1.createCell(2).setCellValue("10");
 
         //通过输出流将workbook对象下载到磁盘
-        FileOutputStream out = new FileOutputStream("C:\\Users\\root\\Desktop\\测试写入poi.xlsx");
+        FileOutputStream out = new FileOutputStream("C:\\Users\\root\\Desktop\\测试写入poi2.xlsx");
         workbook.write(out);
         out.flush();
         out.close();

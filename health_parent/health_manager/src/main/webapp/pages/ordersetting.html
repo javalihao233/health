@@ -1,5 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
+
+
 <head>
     <!-- 页面meta -->
     <meta charset="utf-8">
@@ -19,8 +21,16 @@
     <script type="text/javascript" src="../js/jquery.min.js"></script>
     <script src="../js/axios-0.18.0.js"></script>
 </head>
+
+
+
+
+
+
 <body class="hold-transition">
 <div id="app">
+
+
     <div class="content-header">
         <h1>预约管理
             <small>预约设置</small>
@@ -31,14 +41,20 @@
             <el-breadcrumb-item>预约设置</el-breadcrumb-item>
         </el-breadcrumb>
     </div>
+
+
+
+
     <div class="app-container">
         <div class="box">
             <div class="box ordersetting">
-                <el-card class="box-card">
+
+                <!--使用的是ElementUI的  card卡片   在卡片里面 添加了2个按钮： 模板 文件上传-->
+                <el-card class="box-card" shadow="hover">
                     <div class="boxMain">
-                        <el-button style="margin-bottom: 20px;margin-right: 20px" type="primary"
-                                   @click="downloadTemplate()">模板下载
-                        </el-button>
+
+                        <!--模板下载按钮-->
+                        <el-button style="margin-bottom: 20px;margin-right: 20px" type="primary" @click="downloadTemplate()">模板下载</el-button>
 
                         <!--上传文件-->
                         <el-upload action="/ordersetting/upload.do"
@@ -56,23 +72,30 @@
                 </el-card>
 
 
-                <!--日历-->
+                <!--日历控件****************************************   用于展示日历-->
+                <!--这里没有用elementUI提供的日历空间，因为其提供的空间，封装的太深，不便于我们进行扩展。   这里采用的是前端用div拼出来的-->
                 <div class="calendar">
-                    <!-- 年份 月份 -->
+
+                    <!-- 顶部展示的 年份 月份 -->
                     <div class="month">
                         <div class="currentdate">
                             <span class="choose-year">{{currentYear}}年</span>
                             <span class="choose-month">{{currentMonth}}月</span>
                         </div>
+
                         <div class="choose">
                             <span @click="goCurrentMonth(currentYear,currentMonth)" class="gotoday">今天</span>
-                            <span @click="pickPre(currentYear,currentMonth)">❮</span>
-                            <span @click="pickNext(currentYear,currentMonth)">❯</span>
+                            <span @click="pickPre(currentYear,currentMonth)">上月</span>
+                            <span @click="pickNext(currentYear,currentMonth)">下月</span>
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <!-- 星期 -->
+
+
+                    <!-- 当月日历展示 -->
                     <div class="caldate">
+
+                        <!--日历控件  顶部的周末 周期-->
                         <ul class="weekdays">
                             <li>周一</li>
                             <li>周二</li>
@@ -82,28 +105,38 @@
                             <li>周六</li>
                             <li>周日</li>
                         </ul>
+
                         <!-- 日期 -->
                         <ul class="days">
                             <!-- v-for循环 每一次循环用<li>标签创建一天 -->
                             <li v-for="dayobject in days">
                                 <template>
+
                                     <!-- 非当前月份 -->
                                     <div class="other-month" v-if="dayobject.day.getMonth()+1 != currentMonth">
                                         {{ dayobject.day.getDate() }}
                                     </div>
+
                                     <!-- 当前月 -->
                                     <div class="everyday" v-if="dayobject.day.getMonth()+1 == currentMonth">
+
                                         <span class="datenumber">{{ dayobject.day.getDate()}}</span>
 
                                         <template>
+
+                                            <!--遍历每月的日子-->
                                             <template v-for="obj in leftobj">
                                                 <template v-if="obj.date == dayobject.day.getDate()">
+
+                                                    <!-- 条件判断是否显示对应的样式：人数没有约满了 -->
                                                     <template v-if="obj.number > obj.reservations">
                                                         <div class="usual">
                                                             <p>可预约{{obj.number}}人</p>
                                                             <p>已预约{{obj.reservations}}}人</p>
                                                         </div>
                                                     </template>
+
+                                                    <!-- 条件判断是否显示对应的样式：人数约满了 -->
                                                     <template v-else>
                                                         <div class="fulled">
                                                             <p>可预约{{obj.number}}人</p>
@@ -111,27 +144,42 @@
                                                             <p>已满</p>
                                                         </div>
                                                     </template>
+
                                                 </template>
                                             </template>
-                                            <button v-if="dayobject.day>today" @click="handleOrderSet(dayobject.day)"
-                                                    class="orderbtn">设置
-                                            </button>
+
+                                            <!-- 条件判断是否显示对应的样式：对当前日和后面的日志 允许显示设置按钮，对于已经过去的日子 不进行显示设置按钮，   因为已经过去了的日子，你再来修改可预约人数没有意义-->
+                                            <button v-if="dayobject.day>today" @click="handleOrderSet(dayobject.day)"  class="orderbtn">设置 </button>
                                         </template>
 
                                     </div>
+
                                 </template>
                             </li>
                         </ul>
-                    </div>
-                </div>
-                <!--日历-->
 
+                    </div>
+
+                </div>
+                <!--日历控件****************************************   用于展示日历-->
 
             </div>
         </div>
     </div>
+
+
+
 </div>
 </body>
+
+
+
+
+
+
+
+
+
 <!-- 引入组件库 -->
 <script src="../js/vue.js"></script>
 <script src="../plugins/elementui/index.js"></script>
@@ -147,7 +195,7 @@
             currentYear: 2019,
             currentWeek: 1,
             days: [],
-            leftobj: [],//用于装载页面显示的月份已经进行预约设置的数据
+            leftobj: [],//用于页面显示的月份已经进行预约设置的数据
         },
         created: function () {//在vue初始化时调用
             this.initData(new Date());
@@ -174,37 +222,40 @@
                     });
                 });
             },
-            //上传之前进行文件格式校验
+
+            //上传之前进行文件格式校验    ——————后台的POIUtils 也有文件格式的校验，我在后台也对其进行了校验
+            //PS：这个校验有问题。。    因为这是前端写的校验  ，我看不懂 所以我这里无法进行跳转修改。所以注释掉
             beforeUpload(file) {
-                // const isXLS = file.type === 'application/vnd.ms-excel';
+                // const isXLS = file.type === 'application/vnd.ms‐excel';
                 // if(isXLS){
-                //     return true;
+                //     return true;
                 // }
-                // const isXLSX = file.type === 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
-                // if (isXLSX) {
-                //     return true;
+                // const isXLSX = file.type === 'application/vnd.openxmlformats‐officedocument.spreadsheetml.sheet';
+                // if (isXLSX) {
+                //     return true;
                 // }
                 // this.$message.error('上传文件只能是xls或者xlsx格式!');
-                // return false;
-                return true;
-            }
-            ,
+                // return false;
+
+
+                return true;  //直接返回true   不走上面注释掉的代码
+            },
+
             //下载模板文件
             downloadTemplate() {
                 window.location.href = "../template/ordersetting_template.xlsx";
             },
-            //上传成功提示
+
+            //上传成功弹出提示信息，并查询最新的预约信息
             handleSuccess(response, file) {
                 if (response.result == "SUCCESS") {
-                    this.$message({
-                        message: "上传成功",
-                        type: 'success'
-                    });
+                    this.$message.success("上传成功");
+
+                    this.initData(new Date());
                 } else {
                     this.$message.error("上传失败")
                 }
             },
-
 
             //初始化当前页要展示的日期
             initData: function (cur) {
@@ -243,6 +294,7 @@
                         dayobject.index = index++;//从今天开始3天内显示供预定的数量
                     this.days.push(dayobject);//将日期放入data 中的days数组 供页面渲染使用
                 }
+
                 //其他周
                 for (var i = 1; i <= 42 - this.currentWeek; i++) {
                     var d = new Date(str);
@@ -257,14 +309,16 @@
                     this.days.push(dayobject);
                 }
 
-                // this.leftobj = [
-                //     { date: 1, number: 120, reservations: 1 },
-                //     { date: 3, number: 120, reservations: 120 },
-                //     { date: 4, number: 120, reservations: 120 },
-                //     { date: 6, number: 120, reservations: 1 },
-                //     { date: 8, number: 120, reservations: 1 }
-                // ];
-                //date：格式  1997-8
+
+                // 需要的数据
+                    // this.leftobj = [
+                    //     { date: 1, number: 120, reservations: 1 },   //都是int类型
+                    //     { date: 3, number: 120, reservations: 120 },
+                    //     { date: 4, number: 120, reservations: 120 },
+                    //     { date: 6, number: 120, reservations: 1 },
+                    //     { date: 8, number: 120, reservations: 1 }
+                    // ];
+                //前端发送的数据：    date：格式  1997-8
                 axios.get("/ordersetting/getDays.do?date=" + this.currentYear + '-' + this.currentMonth).then((res) => {
                     if (res.data.result == "SUCCESS") {
                         //为模型数据赋值，通过双向绑定展示到日历中
@@ -275,11 +329,13 @@
                     }
                 })
             },
+
             //切换到当前月份
             goCurrentMonth: function (year, month) {
                 var d = new Date();
                 this.initData(this.formatDate(d.getFullYear(), d.getMonth() + 1, 1));
             },
+
             //向前一个月
             pickPre: function (year, month) {
                 // setDate(0); 上月最后一天
@@ -289,13 +345,13 @@
                 d.setDate(0);
                 this.initData(this.formatDate(d.getFullYear(), d.getMonth() + 1, 1));
             },
+
             //向后一个月
             pickNext: function (year, month) {
                 var d = new Date(this.formatDate(year, month, 1));
                 d.setDate(35);////获取指定天之后的日期
                 this.initData(this.formatDate(d.getFullYear(), d.getMonth() + 1, 1));
             },
-
 
             // 返回 ————————————————————————类似 2016-01-02 格式的字符串
             formatDate: function (year, month, day) {

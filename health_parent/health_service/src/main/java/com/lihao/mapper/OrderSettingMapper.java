@@ -11,7 +11,7 @@ import java.util.List;
 
 public interface OrderSettingMapper {
 
-    //    上传excel文件
+    //    添加设置可预约人数
     @Insert("insert into t_ordersetting (orderDate,number) values(#{orderDate},#{number})")
     void addOrderSetting(OrderSetting orderSetting);
 
@@ -19,7 +19,7 @@ public interface OrderSettingMapper {
     @Select("select * from t_ordersetting where orderDate = #{orderDate}")
     OrderSetting getOrderSettingByDate(Date orderDate);
 
-    //    更新预约信息
+    //    更新可预约人数
     @Update("update t_ordersetting set orderDate = #{orderDate},number = #{number} where id = #{id}")
     void updateOrderSetting(OrderSetting orderSetting);
 

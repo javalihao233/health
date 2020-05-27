@@ -19,8 +19,9 @@ public class POIUtils {
     private final static String xls = "xls";
     private final static String xlsx = "xlsx";
     private final static String DATE_FORMAT = "yyyy/MM/dd";
+
     /**
-     * 读入excel文件，解析后返回
+     * 读入excel文件除了第一行的所有行，解析后返回
      * @param file
      * @throws IOException
      */
@@ -76,10 +77,11 @@ public class POIUtils {
         //获得文件名
         String fileName = file.getOriginalFilename();
         //判断文件是否是excel文件
-        if(!fileName.endsWith(xls) && !fileName.endsWith(xlsx)){
+        if(!fileName.endsWith(xls) && !fileName.endsWith(xlsx)){  //endsWith(String suffix) 测试此字符串是否以指定的后缀结束。
             throw new IOException(fileName + "不是excel文件");
         }
     }
+
     public static Workbook getWorkBook(MultipartFile file) {
         //获得文件名
         String fileName = file.getOriginalFilename();
@@ -101,6 +103,7 @@ public class POIUtils {
         }
         return workbook;
     }
+
     public static String getCellValue(Cell cell){
         String cellValue = "";
         if(cell == null){
