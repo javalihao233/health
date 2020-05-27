@@ -35,8 +35,9 @@ public class SetmealServiceImpl implements SetmealService {
      */
     @Override
     public PageInfo getAllSetmeal(int page, int size, String name) {
+        String newName = name.replace(" ", "");
         PageHelper.startPage(page, size);
-        List<Setmeal> list = setmealMapper.getAllSetmeal(name);
+        List<Setmeal> list = setmealMapper.getAllSetmeal(newName);
         PageInfo pageInfo = new PageInfo(list);
         return pageInfo;
     }
@@ -48,10 +49,13 @@ public class SetmealServiceImpl implements SetmealService {
      */
     @Override
     public void delSetmeal(int id) {
-        //1. 删除中间表
+        //1. 删除套餐与检查组中间表
         setmealMapper.delMiddle(id);
         //2. 删除套餐表
         setmealMapper.delSetmealTable(id);
+
+        //3. 套餐与订单时一对多关系   还得删除订单表信息
+        //   怀疑实际工作中，应该会限定像这类数据不能删除   所以我这里就不继续吧这个功能完善了
     }
 
     /**
@@ -87,7 +91,9 @@ public class SetmealServiceImpl implements SetmealService {
             }
         }
 
-        jedisPool.getResource().sadd("imgUp_all",setmeal.getImg());//img：套餐对应图片存储路径
+        if (setmeal.getImg()!=null) {
+            jedisPool.getResource().sadd("imgUp_all",setmeal.getImg());//img：套餐对应图片存储路径      // 还要存一次图片地址   为了和用户上传文件时做对比 解决用户上传文件不提交的操作
+        }
     }
 
     /**

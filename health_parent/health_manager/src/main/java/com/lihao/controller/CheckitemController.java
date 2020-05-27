@@ -53,7 +53,9 @@ public class CheckitemController {
     @RequestMapping("/checkitem/doAdd")
     public ResultEntity doAdd(@RequestBody CheckItem checkItem) {//前段是post请求，数据是json
         try {
-            checkitemService.doAdd(checkItem);
+            if (checkItem != null) {
+                checkitemService.doAdd(checkItem);
+            }
             return ResultEntity.successNoData();
         } catch (Exception e) {
             e.printStackTrace();
@@ -85,8 +87,10 @@ public class CheckitemController {
      * @return
      */
     @RequestMapping("/checkitem/getCheckitemById")
-    public ResultEntity getCheckitemById(int id) { //   "/checkitem/getCheckitemById.do?id=" + row.id
+    public ResultEntity getCheckitemById(int id) { //   "/checkitem/getCheckitemById.do?id=" + row.id   这里发的是一个get请求
         try {
+            //需不需要验证id呢，  如果不传id   id默认值是0    会查询id为0的数据
+            // SELECT * FROM t_checkitem WHERE id =0    查出来的数据为null
             CheckItem checkItem = checkitemService.getCheckitemById(id);
             return ResultEntity.successWithData(checkItem);
         } catch (Exception e) {

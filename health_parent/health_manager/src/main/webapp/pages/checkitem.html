@@ -19,6 +19,8 @@
 
 <body class="hold-transition">
 <div id="app">
+
+    <!--头部-->
     <div class="content-header">
         <h1>预约管理
             <small>检查项管理</small>
@@ -30,28 +32,35 @@
         </el-breadcrumb>
     </div>
 
-
+    <!--容器-->
     <div class="app-container">
         <div class="box">
+
             <div class="filter-container">
-                <el-input placeholder="项目编码/项目名称" v-model="pagination.queryString" style="width: 200px;"
-                          class="filter-item"></el-input>
+                <el-input placeholder="项目编码/项目名称" v-model="pagination.queryString" style="width: 200px;" class="filter-item"></el-input>
                 <el-button @click="findPage()" class="dalfBut">查询</el-button>
                 <el-button type="primary" class="butT" @click="handleCreate()">新建</el-button>
             </div>
+
+            <!--table表格-->
             <el-table size="small" current-row-key="id" :data="dataList" stripe highlight-current-row>
                 <el-table-column type="index" align="center" label="序号"></el-table-column>
+                <!--prop：对应列内容的字段名-->
                 <el-table-column prop="code" label="项目编码" align="center"></el-table-column>
                 <el-table-column prop="name" label="项目名称" align="center"></el-table-column>
+                <!--模板列  没有prop属性-->
                 <el-table-column label="适用性别" align="center">
                     <template slot-scope="scope">
                         <span>{{ scope.row.sex == '0' ? '不限' : scope.row.sex == '1' ? '男' : '女'}}</span>
                     </template>
                 </el-table-column>
+
                 <el-table-column prop="age" label="适用年龄" align="center"></el-table-column>
                 <el-table-column prop="remark" label="项目说明" align="center"></el-table-column>
+
+                <!--模板列  没有prop属性-->
                 <el-table-column label="操作" align="center">
-                    <!--视频里面说这玩意是什么插槽   row就是这条数据-->
+                    <!--通过 Scoped slot 可以获取到 row, column, $index 和 store（table 内部的状态管理）的数据-->
                     <template slot-scope="scope">
                         <el-button type="primary" size="mini" @click="handleUpdate(scope.row)">编辑</el-button>
                         <el-button size="mini" type="danger" @click="handleDelete(scope.row)">删除</el-button>
@@ -61,21 +70,24 @@
 
             <!--分页组件-->
             <div class="pagination-container">
-                <el-pagination
-                        class="pagiantion"
-                        @current-change="handleCurrentChange"
-                        :current-page="pagination.currentPage"
-                        :page-size="pagination.pageSize"
-                        layout="total, prev, pager, next, jumper"
-                        :total="pagination.total">
+                <el-pagination class="pagiantion"
+                               @current-change="handleCurrentChange"
+                               :current-page="pagination.currentPage"
+                               :page-size="pagination.pageSize"
+                               layout="total, prev, pager, next, jumper"
+                               :total="pagination.total">
+                    <!-- current-change: 改变时会触发-->
+                    <!-- current-page: 当前页数，支持 .sync 修饰符-->
+                    <!-- page-sizes: 每页显示个数 -->
+                    <!-- layout: 组件布局，子组件名用逗号分隔 -->
+                    <!-- total: 总条目数 -->
                 </el-pagination>
             </div>
 
             <!-- 新增标签弹层 -->
             <div class="add-form">
                 <el-dialog title="新增检查项" :visible.sync="dialogFormVisible">
-                    <el-form ref="dataAddForm" :model="formData" :rules="rules" label-position="right"
-                             label-width="100px">
+                    <el-form ref="dataAddForm" :model="formData" :rules="rules" label-position="right" label-width="100px">
                         <el-row>
                             <el-col :span="12">
                                 <el-form-item label="项目编码" prop="code">
@@ -212,6 +224,7 @@
             </div>
         </div>
     </div>
+
 </div>
 </body>
 
@@ -222,7 +235,6 @@
 <script type="text/javascript" src="../js/jquery.min.js"></script>
 <script src="../js/axios-0.18.0.js"></script>
 <script>
-
     var vue = new Vue({
         el: '#app',
         data: {
@@ -232,7 +244,7 @@
                 total: 0,//总记录数
                 queryString: ""//查询条件
             },
-            dataList: [],//当前页要展示的分页列表数据
+            dataList: [],//当前页要展示的分页列表数据   是个数组
             formData: {},//表单数据
             dialogFormVisible: false,//增加表单是否可见
             dialogFormVisible4Edit: false,//编辑表单是否可见
@@ -243,44 +255,42 @@
                     {main: 3, max: 5, message: "长度在3到5个字符", trigger: "blur"}
                 ],
                 name: [{required: true, message: '项目名称为必填项', trigger: 'blur'}]
-            }
+            },
+            checked: true
         },
-        //钩子函数，VUE对象初始化完成后自动执行
         created() {
             this.findPage()
         },
         methods: {
             //编辑
             handleEdit() {
-                this.$refs['dataAddForm'].validate((valid) => {
+                this.$refs['dataEditForm'].validate((valid) => {
                     if (valid) {
+                        // alert(this.formData.id);            id：编辑表单提交的时候呢 是没有的，id何来呢：在弹出编辑框时，已经为formData赋值了id属性及其值。所以这里this.formData已经有值了
                         axios.post("/checkitem/doEdit.do", this.formData).then((res) => {
-                            this.dialogFormVisible4Edit = false;
+                            this.dialogFormVisible4Edit = false;//关闭模态框
                             if (res.data.result == "SUCCESS") {
-                                this.$message({
-                                    type: "success",
-                                    message: "修改成功"
-                                });
+                                this.$message.success("修改成功")
                             } else {
                                 this.$message.error("修改失败")
                             }
                             this.findPage();
                         });
+                    } else {
+                        this.$message.error("请检查你的输入项")
                     }
-                    // alert(this.formData.id);   id：编辑表单提交的时候呢 是没有的，id何来呢：在弹出编辑框时，已经为formData赋值了id属性及其值
                 })
             },
+
             //添加
             handleAdd() {
                 //校验表单输入项是否合法
                 //validata：对整个表单进行校验的方法，参数为一个回调函数
                 //该回调函数会在校验结束后被调用
                 this.$refs['dataAddForm'].validate((valid) => {
-                    // alert(valid)
                     if (valid) {
                         // 执行添加检查项操作
                         axios.post("/checkitem/doAdd.do", this.formData).then((res) => {
-                            console.log(this.formData);
                             this.dialogFormVisible = false;//关闭模态框
                             if (res.data.result == "SUCCESS") {
                                 this.$message({
@@ -297,8 +307,8 @@
                         return false;//可加可不加
                     }
                 });
-                // this.findPage();
             },
+
             //分页查询
             findPage() {
                 axios.get("/checkitem/getAllCheckitem.do", {
@@ -308,21 +318,28 @@
                         name: this.pagination.queryString
                     }
                 }).then((res) => {
+                    if (res.data.result == "SUCCESS") {
                     //为模型数据赋值，采用双向绑定实现
                     this.dataList = res.data.data.list;
-                    this.pagination.total = res.data.data.total;
+                    this.pagination.total = res.data.data.total;//总记录数
+                    } else {
+                        this.$message.error("查询数据失败")
+                    }
                 })
             },
+
             // 重置表单
             resetForm() {
                 this.formData = {};
             },
-            // 弹出添加窗口
+
+            // 弹出——添加窗口
             handleCreate() {
-                this.resetForm();
+                this.resetForm();//重置数据
                 this.dialogFormVisible = true;
             },
-            // 弹出编辑窗口
+
+            // 弹出——编辑窗口
             handleUpdate(row) {
                 this.dialogFormVisible4Edit = true;
 
@@ -330,22 +347,38 @@
                 axios.get("/checkitem/getCheckitemById.do?id=" + row.id).then((res) => {
                     if (res.data.result == "SUCCESS") {
                         this.formData = res.data.data;
+                        /**
+                         *     res.data.data: {
+                                            "age": "0-100",
+                                            "attention": "无",
+                                            "code": "0001",
+                                            "id": 28,
+                                            "name": "身高",
+                                            "price": 5.0,
+                                            "remark": "身高",
+                                            "sex": "0",
+                                            "type": "1"
+                                        }
+                         */
                     } else {
                         this.$message.error("回显数据失败")
                     }
                 })
-
             },
+
             //切换页码
             handleCurrentChange(currentPage) {
                 this.pagination.currentPage = currentPage;
                 this.findPage();
             },
+
             // 删除
             handleDelete(row) {
                 // alert(row.id)
-                this.$confirm("您确认删除吗", "提示", {type: "warning"}).then(() => {
-
+                this.$confirm("您确认删除吗", "提示", {
+                    confirmButtonText: '确定',
+                    cancelButtonText: '取消',
+                    type: "warning"}).then(() => {
                     axios.get("/checkitem/doDel.do?id=" + row.id).then((res) => {
                         if (res.data.result == "SUCCESS") {
                             //删除成功

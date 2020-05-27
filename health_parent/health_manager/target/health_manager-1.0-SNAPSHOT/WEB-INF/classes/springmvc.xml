@@ -35,6 +35,9 @@
     <dubbo:monitor protocol="registry"/>
     <!--是否启动时检查，默认开启。开发阶段最好关闭   timeout：超时时间 单位：毫秒-->
     <dubbo:consumer check="false" timeout="600000"/>
+
+
+
     <!--文件上传组件-->
     <bean id="multipartResolver"
           class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
@@ -42,5 +45,7 @@
         <property name="maxInMemorySize" value="4096" />
         <property name="defaultEncoding" value="UTF-8"/>
     </bean>
+
+
     <import resource="spring-redis.xml"></import>
 </beans>

@@ -102,6 +102,8 @@ public class SetmealController {
     @RequestMapping("/addSetmeal")
     public ResultEntity addSetmeal(@RequestBody Setmeal setmeal, int[] checkgroupIds) {
         try {
+            //关于套餐图片：  需求时：图片可以不加  一个套餐允许没有图片    so：用户不上传图片，也允许用户上传。
+            //发现的问题：存图片地址采用的时set集合  不能存入null 所以后台需要做个非空判断
             setmealService.addSetmeal(setmeal, checkgroupIds);
             return ResultEntity.successNoData();
         } catch (Exception e) {
@@ -151,7 +153,7 @@ public class SetmealController {
      * @param checkgroupIds
      * @return
      */
-    @RequestMapping("/editSetmeal")
+    @RequestMapping("/editSetmeal")     //关于套餐修改        目前没有对其进行完善【主要是图片这块的】
     public ResultEntity editSetmeal(@RequestBody Setmeal setmeal, int[] checkgroupIds) {
         try {
             setmealService.editSetmeal(setmeal, checkgroupIds);
@@ -168,14 +170,14 @@ public class SetmealController {
      * @return
      */
     @RequestMapping("/upload")
-    public ResultEntity upload(@RequestParam("imgFile") MultipartFile imgFile) throws IOException {
+    public ResultEntity upload(@RequestParam("imgFile") MultipartFile imgFile) throws IOException {   //用的是SpringMVC 文件上传   配置文件：CommonsMultipartResolver
         //1. 获取原始文件名
         String originalFilename = imgFile.getOriginalFilename();
-        System.out.println("原始文件名：" + originalFilename);
+        System.out.println("原始文件名：" + originalFilename);  // xxxxx.jpg
 
         //2. 获取文件后缀
-        int lastIndexOf = originalFilename.lastIndexOf(".");
-        String suffix = originalFilename.substring(lastIndexOf - 1);
+        int lastIndexOf = originalFilename.lastIndexOf(".");//lastIndexOf(String str)   返回指定子字符串在此字符串中最右边出现处的索引。
+        String suffix = originalFilename.substring(lastIndexOf); //substring(int beginIndex)   返回一个新的字符串，它是此字符串的一个子字符串。
 
         //3. 使用UUID随机产生文件名称
         String fileName = UUID.randomUUID().toString() + suffix;
@@ -203,8 +205,8 @@ public class SetmealController {
         ossClient.shutdown();
 
         //5. 将上传后的图片名称存入redis
-        jedisPool.getResource().sadd("imgUp_part",objectName);
+        jedisPool.getResource().sadd("imgUp_part",objectName);   //图片set集合名称：imgUp_part
 
-        return ResultEntity.successWithData(objectName);
+        return ResultEntity.successWithData(objectName);//返回的是  图片名称   "lihao/test/" + 图片名称
     }
 }

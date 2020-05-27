@@ -20,14 +20,17 @@ public interface CheckGroupMapper {
 
     //    删除检查组
     @Delete("delete from t_checkgroup where id = #{id}")
-    void del(@Param("id") int id);
+    void del(int id);
 
 
     //需要得到添加后的返回值
     void addCheckGroup(CheckGroup checkGroup);
 
-    //添加中间表信息
+    //添加中间表信息方式一
     void addForMiddle(HashMap<String, Object> map);
+
+    //添加中间表信息方式二
+    void addForMiddle2(@Param("id") Integer id, @Param("itemId") Integer itemId);
 
     //    根据检查组id查询检查组信息
     @Select("select * from t_checkgroup where id = #{id}")
@@ -42,4 +45,5 @@ public interface CheckGroupMapper {
 
     @Delete("delete from t_checkgroup_checkitem where checkgroup_id = #{id}")
     void delItemByGroupId(Integer id);
+
 }

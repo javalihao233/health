@@ -53,7 +53,7 @@ public class CheckGroupController {
     @RequestMapping("/checkgroup/doDel")
     public ResultEntity doDel(int id) {
         try {
-            checkGroupService.doDel(id);
+            checkGroupService.doDel(id);     //删除检查组的时候   需要将其关联的检查项删除
             return ResultEntity.successNoData();
         } catch (Exception e) {
             e.printStackTrace();
@@ -72,7 +72,9 @@ public class CheckGroupController {
     @RequestMapping("/checkgroup/doAdd")
     public ResultEntity doAdd(@RequestBody CheckGroup checkGroup, Integer[] checkitemIds) {
         try {
-            checkGroupService.doAdd(checkGroup, checkitemIds);
+            if (checkGroup != null) {
+                checkGroupService.doAdd(checkGroup, checkitemIds);
+            }
             return ResultEntity.successNoData();
         } catch (Exception e) {
             e.printStackTrace();

@@ -20,6 +20,13 @@
     <insert id="addForMiddle" parameterType="hashmap">
         insert into t_checkgroup_checkitem (checkgroup_id,checkitem_id) values (#{checkgroup_id},#{checkitem_id})
     </insert>
+
+
+    <insert id="addForMiddle2">
+        insert into t_checkgroup_checkitem (checkgroup_id,checkitem_id) values (#{id},#{itemId})
+    </insert>
+
+
 </mapper>
 
 

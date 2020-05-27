@@ -1,0 +1,2 @@
+检查项管理
+    CRUD      针对的表  t_checkitem

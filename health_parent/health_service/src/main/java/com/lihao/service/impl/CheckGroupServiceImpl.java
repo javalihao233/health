@@ -112,10 +112,11 @@ public class CheckGroupServiceImpl implements CheckGroupService {
         //3. 将勾选的检查项id存入
         if (checkitemIds != null && checkitemIds.length > 0) {
             for (Integer itemId : checkitemIds) {
-                HashMap<String, Object> map = new HashMap<>();
-                map.put("checkgroup_id", id);
-                map.put("checkitem_id", itemId);
-                checkGroupMapper.addForMiddle(map);
+//                HashMap<String, Object> map = new HashMap<>();
+//                map.put("checkgroup_id", id);
+//                map.put("checkitem_id", itemId);
+//                checkGroupMapper.addForMiddle(map); //map传参方式
+                checkGroupMapper.addForMiddle2(id,itemId);  //@Param 传参方式
             }
         }
     }

@@ -1,13 +1,11 @@
 package com.itheima.jobs;
 
-import java.util.Date;
-
 /**
- * 自定义Job
+ * 自定义Job    用于清理redis和清理阿里云垃圾图片
  */
 public class JobDemo {
-    public void run(){
-        System.out.println("自定义Job执行了。。。" + new Date());
+    public void cleanRedisAndAlibb(){
+        System.out.println("清理redis和清理阿里云垃圾图片____每10秒一次");
     }
 }
 

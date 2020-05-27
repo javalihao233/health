@@ -1,5 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
+
+
+
 <head>
     <!-- 页面meta -->
     <meta charset="utf-8">
@@ -44,27 +47,10 @@
 </head>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <body class="hold-transition">
 <div id="app">
+
+
     <div class="content-header">
         <h1>预约管理
             <small>检查组管理</small>
@@ -75,15 +61,20 @@
             <el-breadcrumb-item>检查组管理</el-breadcrumb-item>
         </el-breadcrumb>
     </div>
+
+
     <div class="app-container">
         <div class="box">
             <div class="filter-container">
-                <el-input placeholder="编码/名称/助记码" v-model="pagination.queryString" style="width: 200px;"
-                          class="filter-item" @keyup.enter.native="handleFilter"></el-input>
+                <el-input placeholder="编码/名称/助记码" v-model="pagination.queryString" style="width: 200px;" class="filter-item" @keyup.enter.native="handleFilter"></el-input>
                 <el-button @click="findPage()" class="dalfBut">查询</el-button>
+                <el-button type="danger" @click="delBatch()" class="dalfBut">批量删除</el-button>
                 <el-button type="primary" class="butT" @click="handleCreate()">新建</el-button>
             </div>
-            <el-table size="small" current-row-key="id" :data="dataList" stripe highlight-current-row>
+
+            <el-table size="small" ref="multipleTable" current-row-key="id" :data="dataList" stripe highlight-current-row>
+                <!--type:selection         多选框-->
+                <el-table-column prop="ids" type="selection" width="55"></el-table-column>
                 <el-table-column type="index" align="center" label="序号"></el-table-column>
                 <el-table-column prop="code" label="检查组编码" align="center"></el-table-column>
                 <el-table-column prop="name" label="检查组名称" align="center"></el-table-column>
@@ -101,22 +92,13 @@
                     </template>
                 </el-table-column>
             </el-table>
-            <div class="pagination-container">
-                <el-pagination
-                        class="pagiantion"
-                        @current-change="handleCurrentChange"
-                        :current-page="pagination.currentPage"
-                        :page-size="pagination.pageSize"
-                        layout="total, prev, pager, next, jumper"
-                        :total="pagination.total">
-                </el-pagination>
-            </div>
+
+
             <!-- 新增标签弹层 -->
             <div class="add-form">
                 <el-dialog title="新增检查组" :visible.sync="dialogFormVisible">
                     <template>
-                        <el-tabs v-model="activeName" type="card">
-
+                        <el-tabs  v-model="activeName" type="card">
 
                             <!--基本信息*******************************************************************-->
                             <el-tab-pane label="基本信息" name="first">
@@ -167,11 +149,11 @@
                             </el-tab-pane>
                             <!--基本信息*******************************************************************-->
 
-
-                            <!--检查信息——————————————————-->
+                            <!--检查信息——————多选框是用html写的不是elementUI的多选框————————————-->
                             <el-tab-pane label="检查项信息" name="second">
                                 <div class="checkScrol">
                                     <table class="datatable">
+
                                         <thead>
                                         <tr>
                                             <th>选择</th>
@@ -180,21 +162,23 @@
                                             <th>项目说明</th>
                                         </tr>
                                         </thead>
+
                                         <tbody>
                                         <tr v-for="c in tableData">
                                             <td>
                                                 <input :id="c.id" v-model="checkitemIds" type="checkbox" :value="c.id">
                                             </td>
+                                            <!--关于label 我认为这个内容应该是前端写的  不把这里想复杂了  反正就是绑定给了id-->
                                             <td><label :for="c.id">{{c.code}}</label></td>
                                             <td><label :for="c.id">{{c.name}}</label></td>
                                             <td><label :for="c.id">{{c.remark}}</label></td>
                                         </tr>
                                         </tbody>
+
                                     </table>
                                 </div>
                             </el-tab-pane>
                             <!--检查信息——————————————————-->
-
 
                         </el-tabs>
                     </template>
@@ -288,35 +272,24 @@
                     </div>
                 </el-dialog>
             </div>
+
+            <!--分页组件-->
+            <div class="pagination-container">
+                <el-pagination
+                        class="pagiantion"
+                        @current-change="handleCurrentChange"
+                        :current-page="pagination.currentPage"
+                        :page-size="pagination.pageSize"
+                        layout="total, prev, pager, next, jumper"
+                        :total="pagination.total">
+                </el-pagination>
+            </div>
         </div>
     </div>
+
+
 </div>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <script>
@@ -343,13 +316,14 @@
         methods: {
             //分页查询
             findPage() {
-                var postData = new URLSearchParams();
-                postData.append('page', this.pagination.currentPage);
-                postData.append('size', this.pagination.pageSize);
-                postData.append('name', this.pagination.queryString);
-                axios.post("/checkgroup/getAllCheckGroupByCP.do", postData).then((res) => {
+                axios.get("/checkgroup/getAllCheckGroupByCP.do", {
+                    params: {
+                        page: this.pagination.currentPage,
+                        size: this.pagination.pageSize,
+                        name: this.pagination.queryString
+                    }
+                }).then((res) => {
                     if (res.data.result == "SUCCESS") {
-
                         //为模型数据赋值，采用双向绑定实现
                         this.dataList = res.data.data.list;
                         this.pagination.total = res.data.data.total;//总记录数
@@ -359,34 +333,31 @@
                 })
             },
 
-
             //编辑
             handleEdit() {
                 //关闭模态框
                 this.dialogFormVisible4Edit = false;
                 axios.post("/checkgroup/doEdit.do?checkitemIds=" + this.checkitemIds, this.formData).then((res) => {
                     if (res.data.result == "SUCCESS") {
-                        this.$message({
-                            type: "success",
-                            message: "修改成功"
-                        });
+                        this.$message.success("修改成功");
                         this.findPage();
                     } else {
                         this.$message.error("修改失败")
                     }
                 });
             },
+
             //添加
             handleAdd() {
+                // alert(this.checkitemIds);   // 28,29,30     是这样的数组   注意下面我发送ajax请求   发送的是post请求 注意写法
+                //他娘的 这个写法居然合法
+
                 //先关闭模态框
                 this.dialogFormVisible = false;
                 //发送ajax请求
                 axios.post("/checkgroup/doAdd.do?checkitemIds=" + this.checkitemIds, this.formData).then((res) => {
                     if (res.data.result == "SUCCESS") {
-                        this.$message({
-                            type: "success",
-                            message: "添加成功"
-                        });
+                        this.$message.success("添加成功")
                     } else {
                         this.$message.error("添加失败")
                     }
@@ -398,6 +369,7 @@
             resetForm() {
                 this.formData = {}
             },
+
             // 弹出添加窗口
             handleCreate() {
                 this.dialogFormVisible = true;
@@ -415,6 +387,7 @@
                 })
 
             },
+
             // 弹出编辑窗口
             handleUpdate(row) {
                 this.dialogFormVisible4Edit = true;
@@ -448,22 +421,23 @@
                     }
                 });
             },
+
             //切换页码
             handleCurrentChange(currentPage) {
                 this.pagination.currentPage = currentPage;
                 this.findPage();
             },
+
             // 删除
             handleDelete(row) {
+                alert(row.code)
+                alert(row.ids)
                 this.$confirm("您确定要删除", "提示", {type: "warning"}).then(() => {
 
                     axios.get("/checkgroup/doDel.do?id=" + row.id).then((res) => {
                         if (res.data.result == "SUCCESS") {
                             //删除成功
-                            this.$message({
-                                message: '删除成功',
-                                type: 'success'
-                            });
+                            this.$message.success("删除成功")
                         } else {
                             this.$message.error('删除失败');
                         }
@@ -471,34 +445,17 @@
                     })
 
                 })
+            },
+
+            // 批量删除
+            delBatch(){
+                // const length = this.multipleTable.length;
+                // alert(length)
+                alert("没做出来")
             }
         }
     })
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </html>

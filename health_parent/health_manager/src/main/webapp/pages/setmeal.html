@@ -1,5 +1,9 @@
 ﻿<!DOCTYPE html>
 <html>
+
+
+
+
 <head>
     <!-- 页面meta -->
     <meta charset="utf-8">
@@ -69,8 +73,15 @@
         }
     </style>
 </head>
+
+
+
+
+
+
 <body class="hold-transition">
 <div id="app">
+
     <div class="content-header">
         <h1>预约管理
             <small>套餐管理</small>
@@ -81,6 +92,10 @@
             <el-breadcrumb-item>套餐管理</el-breadcrumb-item>
         </el-breadcrumb>
     </div>
+
+
+
+
     <div class="app-container">
         <div class="box">
             <div class="filter-container">
@@ -108,6 +123,8 @@
                     </template>
                 </el-table-column>
             </el-table>
+
+            <!--分页组件-->
             <div class="pagination-container">
                 <el-pagination
                         class="pagiantion"
@@ -118,8 +135,6 @@
                         :total="pagination.total">
                 </el-pagination>
             </div>
-
-            <!--**********************************************************************-->
 
             <!-- 新增标签弹层 -->
             <div class="add-form">
@@ -169,6 +184,11 @@
                                         </el-col>
                                     </el-row>
 
+                                    <!--==============================文件上传======
+                                            1. 上传成功后需要得到返回的图片地址
+                                            2. 上传成功还需要将图片的名称存在redis      为了清理无用的图片
+
+                                    ======================-->
                                     <el-row>
                                         <el-col :span="24">
                                             <el-form-item label="上传图片">
@@ -186,6 +206,16 @@
                                             </el-form-item>
                                         </el-col>
                                     </el-row>
+                                    <!--  action	必选参数，上传的地址 -->
+                                    <!--  show-file-list	是否显示已上传文件列表 -->
+                                    <!--  on-success	文件上传成功时的钩子  -->
+                                    <!--  before-upload	上传文件之前的钩子，参数为上传的文件，若返回 false 或者返回 Promise 且被 reject，则停止上传。-->
+                                    <!--  name	上传的文件字段名  -->
+                                    <!--  auto-upload	是否在选取文件后立即进行上传  -->
+                                    <!--==========================================================-->
+
+
+
 
                                     <el-row>
                                         <el-col :span="24">
@@ -236,8 +266,6 @@
                 </el-dialog>
             </div>
 
-
-            <!--**********************************************************************-->
             <!-- 编辑标签弹层 -->
             <div class="add-form">
                 <el-dialog title="新增套餐" :visible.sync="dialogFormVisible4Edit">
@@ -352,6 +380,7 @@
             </div>
         </div>
     </div>
+
 </div>
 </body>
 
@@ -395,13 +424,15 @@
                     this.findPage();
                 })
             },
-            //文件上传————成功后的钩子，response为服务端返回的值，file为当前上传的文件封装成的js对象
+
+            //文件上传————成功后的方法，response为服务端返回的值，file为当前上传的文件封装成的js对象
             handleAvatarSuccess(response, file) {
                 //1. 实现预览      data：图片预览路径
                 this.imageUrl = "https://chuanzhi-health.oss-cn-chengdu.aliyuncs.com/" + response.data;
                 //2. 将图片名称赋值给formData.img       提交的表单项中 并没有一个项为img  但是后面添加数据的时候需要这个img属性，所以这里声明并赋值img
                 this.formData.img = response.data;//this.formData.img：为formData赋一个img值  😊
             },
+
             //上传图片之前执行
             beforeAvatarUpload(file) {
                 const isJPG = file.type === 'image/jpeg';
@@ -414,7 +445,6 @@
                 }
                 return isJPG && isLt2M;
             },
-
 
             //添加
             handleAdd() {
@@ -439,10 +469,7 @@
                     axios.get("/setmeal/delSetmeal.do?id=" + row.id).then((res) => {
                         if (res.data.result == "SUCCESS") {
                             //删除成功
-                            this.$message({
-                                message: '删除成功',
-                                type: 'success'
-                            });
+                            this.$message.success("删除成功")
                         } else {
                             this.$message.error('删除失败');
                         }
@@ -451,24 +478,25 @@
                 })
             },
 
-
             //分页查询
             findPage() {
-                var postData = new URLSearchParams();
-                postData.append('page', this.pagination.currentPage);
-                postData.append('size', this.pagination.pageSize);
-                postData.append('name', this.pagination.queryString);
-                axios.post("/setmeal/getAllSetmeal.do", postData).then((res) => {
+                axios.post("/setmeal/getAllSetmeal.do",{params:{
+                        page:this.pagination.currentPage,
+                        size:this.pagination.pageSize,
+                        name:this.pagination.queryString
+                    }}).then((res) => {
                     this.dataList = res.data.data.list;
                     this.pagination.total = res.data.data.total;
                 })
             },
+
             // 重置表单
             resetForm() {
                 this.imageUrl = null;
                 this.checkgroupIds = [];
                 this.formData = {};
             },
+
             // 弹出添加窗口
             handleCreate() {
                 this.activeName = "first";
@@ -479,6 +507,7 @@
                     this.tableData = res.data.data;
                 })
             },
+
             //切换页码
             handleCurrentChange(currentPage) {
                 this.pagination.currentPage = currentPage;
