@@ -213,12 +213,9 @@
                     axios.post("/ordersetting/editNumberByDate.do", {
                         orderDate: this.formatDate(day.getFullYear(), day.getMonth() + 1, day.getDate()),
                         number: value
-                    }).then((response) => {//注意这里response不知道为啥没什么用 显示未定义  难道是又两个then的原因？
+                    }).then((response) => {
                         this.initData(this.formatDate(day.getFullYear(), day.getMonth() + 1, 1));
-                        this.$message({
-                            type: 'success',
-                            message: "修改成功"
-                        });
+                        this.$message.success("修改成功");
                     });
                 });
             },

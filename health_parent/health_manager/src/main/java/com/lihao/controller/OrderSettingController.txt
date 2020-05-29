@@ -4,4 +4,43 @@
     我们需要进行预约设置，其实就是设置每一天的体检预约最大数量。
     客户可以通过微信端在线预约，在线预约时需要选择体检的时间，如果客户选择的时间已经预约满则无法进行预约。
 
+    预约管理：设计的功能是   增改查      没有删除
 
+关于预约设置的展示：
+        日历控件是前端用比较原生的方式写的，不是用的elementUI来写，因为elementUI封装的很厉害，不便于我们扩展。
+        关于日历控件的展示，大部分是前端完成的，比如已进入预约设置页面，就自动跳转到最新的日历。这些逻辑是前端写的。
+
+        预约管理用到的表：
+             t_ordersetting
+
+        实体类：
+             OrderSetting
+                           private Integer id ;
+                           private Date orderDate;//预约设置日期
+                           private int number;//可预约人数
+                           private int reservations ;//已预约人数
+
+            @RequestMapping("/getDays")
+            public ResultEntity getMonthOrderSetting(String date) {
+                try {
+                    List<Map> list = orderSettingService.getMonthOrderSetting(date);
+                    return ResultEntity.successWithData(list);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    return ResultEntity.failed(e.getMessage());
+                }
+            }
+
+        前端传过来的日期是  XXXX-XX    某年某月，   我们在后台需要改成  XXX-XX-01
+            通过查询  XXX-XX-01   至   XXX-XX-31
+            select * from t_ordersetting where orderDate between #{month_first} and #{month_end}
+
+
+关于预约设置的设置：
+        用到了POI，要求用户下载excel模板文件，对其进行相应预约设置，上传到网站。
+        根据用户的excel，封装成相应的ordersetting实体类  进行数据的添加。
+
+        在添加时，会判断用户该日期原本是否已经进行可预约人数的设置，若没有则执行添加操作，否则执行的是修改操作。
+
+关于预约设置的修改：
+        简单没啥好说的

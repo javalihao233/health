@@ -6,15 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12a2d7f7-05cb-4b51-ba27-b6de49bf15fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt" afterDir="false" />
+    <list default="true" id="12a2d7f7-05cb-4b51-ba27-b6de49bf15fc" name="Default Changelist" comment="套参餐管——预约设置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache_poi/src/main/java/cn/lihao/test/PoiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache_poi/src/main/java/cn/lihao/test/PoiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/POIUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/POIUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_manager/src/main/webapp/pages/ordersetting.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/src/main/webapp/pages/ordersetting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/OrderSettingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/OrderSettingMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderSettingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderSettingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/pages/ordersetting.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/pages/ordersetting.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,121 +52,31 @@
     <favorites_list name="health_parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/ReportController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="docComment;class#ReportController#0" />
+                <element signature="e#404#419#0" />
+                <element signature="docComment;method#getMemberReport#0;class#ReportController#0" />
+                <element signature="method#getMemberReport#0;class#ReportController#0" />
+                <element signature="e#743#1603#0" />
+                <element signature="e#1141#1296#1" />
+                <element signature="e#1624#1724#0" />
+                <element signature="e#1732#1741#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/ordersetting.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="813">
-              <caret line="252" column="46" selection-start-line="252" selection-start-column="46" selection-end-line="252" selection-end-column="46" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#el-button#0;n#div#0;n#el-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#el-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#template#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#6974#7918#0" />
-                <element signature="e#7025#7239#0" />
-                <element signature="e#7371#7538#0" />
-                <element signature="e#7742#7858#0" />
-                <element signature="e#8554#8650#0" />
-                <element signature="e#10117#10141#0" />
-                <element signature="e#10230#10862#0" />
-                <element signature="e#10577#10666#0" />
-                <element signature="e#10950#11553#0" />
-                <element signature="e#11329#11403#0" />
-                <element signature="e#12127#12135#0" />
-                <element signature="e#12546#12683#0" />
-                <element signature="e#12749#13075#0" />
-                <element signature="e#12767#12788#0" />
-                <element signature="e#13142#13355#0" />
-                <element signature="e#13474#13706#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="78" column="70" lean-forward="true" selection-start-line="78" selection-start-column="70" selection-end-line="78" selection-end-column="70" />
-              <folding>
-                <element signature="docComment;class#OrderSettingController#0" />
-                <element signature="docComment;method#getMonthOrderSetting#0;class#OrderSettingController#0" />
-                <element signature="method#getMonthOrderSetting#0;class#OrderSettingController#0" />
-                <element signature="docComment;method#upload#0;class#OrderSettingController#0" />
-                <element signature="docComment;method#editNumberByDate#0;class#OrderSettingController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/OrderSettingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderSettingServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/OrderSettingMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/ResultEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="321" column="38" lean-forward="true" selection-start-line="321" selection-start-column="38" selection-end-line="321" selection-end-column="38" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#el-breadcrumb#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#el-table-column#3;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#template#0;n#el-table-column#3;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#el-pagination#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="456">
+              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -189,8 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>doDel</find>
-      <find>doAdd</find>
       <find>doEdit</find>
       <find>新建</find>
       <find>handleDelete</find>
@@ -215,10 +119,12 @@
       <find>initData</find>
       <find>getDays</find>
       <find>leftobj</find>
-      <find>是否</find>
       <find>文件上传</find>
       <find>handleSuccess</find>
       <find>beforeUpload</find>
+      <find>是否</find>
+      <find>设置</find>
+      <find>handleOrderSet</find>
     </findStrings>
     <replaceStrings>
       <replace>http://localhost:9999/vue_demo_war_exploded/plugins</replace>
@@ -279,13 +185,13 @@
         <option value="$PROJECT_DIR$/quartzdemo/src/main/resources/spring-jobs.xml" />
         <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/SetmealController.java" />
         <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/SetmealController.txt" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt" />
         <option value="$PROJECT_DIR$/apache_poi/src/main/java/cn/lihao/test/PoiTest.java" />
         <option value="$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/POIUtils.java" />
         <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/OrderSettingMapper.java" />
         <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.java" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/ordersetting.html" />
         <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderSettingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/ordersetting.html" />
+        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt" />
       </list>
     </option>
   </component>
@@ -431,7 +337,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590601347329" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590618906535" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gitForPro/springboot-git" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1108,7 +1014,7 @@
       <workItem from="1590258971609" duration="3457000" />
       <workItem from="1590396234377" duration="818000" />
       <workItem from="1590429912104" duration="3441000" />
-      <workItem from="1590499508493" duration="44098000" />
+      <workItem from="1590499508493" duration="48163000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1590081113357</created>
@@ -1159,7 +1065,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590590401941</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="套参餐管——预约设置">
+      <created>1590601435795</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590601435795</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1195,7 +1108,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="621661000" />
+    <option name="totallyTimeSpent" value="625726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1221,7 +1134,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3207547" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49732262" weight="0.2625" />
-      <window_info anchor="bottom" x="21" y="280" width="1494" height="263" id="Debug" order="3" sideWeight="0.49799198" visible="true" weight="0.25" />
+      <window_info anchor="bottom" x="21" y="280" width="1494" height="263" id="Debug" order="3" sideWeight="0.49799198" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32777777" />
@@ -1304,7 +1217,8 @@
     <MESSAGE value="添加了动态代理" />
     <MESSAGE value="*.idea" />
     <MESSAGE value="0——套餐管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="0——套餐管理" />
+    <MESSAGE value="套参餐管——预约设置" />
+    <option name="LAST_COMMIT_MESSAGE" value="套参餐管——预约设置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1352,28 +1266,10 @@
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="133" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderSettingServiceImpl.java</url>
           <line>30</line>
           <properties />
           <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.java</url>
-          <line>80</line>
-          <properties />
-          <option name="timeStamp" value="141" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
@@ -1386,16 +1282,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1414,48 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="83" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="250" lean-forward="true" selection-start-line="250" selection-end-line="250" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#a#0;n#nav#0;n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#el-aside#0;n#el-container#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-container#0;n#el-container#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#3;n#html#0;n#!!top" />
-            <element signature="e#3964#7964#0" />
-            <element signature="e#4395#4606#0" />
-            <element signature="e#4632#4790#0" />
-            <element signature="e#4816#5034#0" />
-            <element signature="e#5260#5481#0" />
-            <element signature="e#5507#5724#0" />
-            <element signature="e#5750#5962#0" />
-            <element signature="e#5988#6204#0" />
-            <element signature="e#6230#6445#0" />
-            <element signature="e#6504#6942#0" />
-            <element signature="e#6652#6924#0" />
-            <element signature="e#6678#6901#0" />
-            <element signature="e#7136#7916#0" />
-            <element signature="e#7179#7399#0" />
-            <element signature="e#7425#7646#0" />
-            <element signature="e#7672#7894#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/ReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1537,121 +1381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckGroupController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-          <folding>
-            <element signature="docComment;class#CheckGroupController#0" />
-            <element signature="docComment;method#getAllCheckGroupByCP#0;class#CheckGroupController#0" />
-            <element signature="method#getAllCheckGroupByCP#0;class#CheckGroupController#0" />
-            <element signature="docComment;method#doDel#0;class#CheckGroupController#0" />
-            <element signature="docComment;method#doAdd#0;class#CheckGroupController#0" />
-            <element signature="method#doAdd#0;class#CheckGroupController#0" />
-            <element signature="docComment;method#getCheckGroupById#0;class#CheckGroupController#0" />
-            <element signature="method#getCheckGroupById#0;class#CheckGroupController#0" />
-            <element signature="e#2429#2578#0" />
-            <element signature="e#2599#2699#0" />
-            <element signature="docComment;method#getCheckitemBygId#0;class#CheckGroupController#0" />
-            <element signature="method#getCheckitemBygId#0;class#CheckGroupController#0" />
-            <element signature="e#2904#3044#0" />
-            <element signature="e#3065#3165#0" />
-            <element signature="docComment;method#doEdit#0;class#CheckGroupController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkgroup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="452" column="30" selection-start-line="452" selection-start-column="30" selection-end-line="452" selection-end-column="30" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#841#1129#0" />
-            <element signature="e#1168#1449#0" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#el-table-column#3;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#template#0;n#el-table-column#3;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-pagination#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#14753#14898#0" />
-            <element signature="e#15213#15253#0" />
-            <element signature="e#15294#16028#0" />
-            <element signature="e#16089#16675#0" />
-            <element signature="e#16718#17322#0" />
-            <element signature="e#17369#17419#0" />
-            <element signature="e#18095#19507#0" />
-            <element signature="e#18397#18630#0" />
-            <element signature="e#18453#18531#0" />
-            <element signature="e#18537#18612#0" />
-            <element signature="e#18823#19491#0" />
-            <element signature="e#18879#19390#0" />
-            <element signature="e#19079#19366#0" />
-            <element signature="e#19143#19241#0" />
-            <element signature="e#19247#19340#0" />
-            <element signature="e#19396#19473#0" />
-            <element signature="e#19573#19680#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckGroupController.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1670,130 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/setmeal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="432" column="89" selection-start-line="432" selection-start-column="89" selection-end-line="432" selection-end-column="89" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#858#1032#0" />
-            <element signature="e#1076#1122#0" />
-            <element signature="e#1154#1339#0" />
-            <element signature="e#1357#1449#0" />
-            <element signature="e#1470#1758#0" />
-            <element signature="e#1797#2078#0" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-table-column#3;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#template#0;n#el-table-column#3;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-table-column#7;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#template#0;n#el-table-column#7;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#4;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#5;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#5;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#5;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-upload#0;n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#4;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#4;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#4;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#5;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#5;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#5;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#19189#19888#0" />
-            <element signature="e#19254#19274#0" />
-            <element signature="e#19471#19616#0" />
-            <element signature="e#20011#20576#0" />
-            <element signature="e#20132#20561#0" />
-            <element signature="e#20245#20425#0" />
-            <element signature="e#20285#20401#0" />
-            <element signature="e#20431#20506#0" />
-            <element signature="e#21717#22096#0" />
-            <element signature="e#21773#21952#0" />
-            <element signature="e#21813#21929#0" />
-            <element signature="e#21958#22041#0" />
-            <element signature="e#22162#22840#0" />
-            <element signature="e#22793#23306#0" />
-            <element signature="e#23119#23312#0" />
-            <element signature="e#23430#23560#0" />
-            <element signature="e#23611#23925#0" />
-            <element signature="e#23839#23910#0" />
-            <element signature="e#23991#24098#0" />
-            <element signature="e#24153#25371#0" />
-            <element signature="e#24379#24612#0" />
-            <element signature="e#24435#24513#0" />
-            <element signature="e#24519#24594#0" />
-            <element signature="e#24736#24970#0" />
-            <element signature="e#24792#24871#0" />
-            <element signature="e#24877#24952#0" />
-            <element signature="e#25118#25356#0" />
-            <element signature="e#25174#25257#0" />
-            <element signature="e#25263#25338#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1883,49 +1488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/SetmealController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="171" column="30" lean-forward="true" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
-          <folding>
-            <element signature="docComment;class#SetmealController#0" />
-            <element signature="e#867#882#0" />
-            <element signature="docComment;method#getAllSetmeal#0;class#SetmealController#0" />
-            <element signature="method#getAllSetmeal#0;class#SetmealController#0" />
-            <element signature="docComment;method#delSetmeal#0;class#SetmealController#0" />
-            <element signature="method#delSetmeal#0;class#SetmealController#0" />
-            <element signature="docComment;method#getAllCheckGroup#0;class#SetmealController#0" />
-            <element signature="method#getAllCheckGroup#0;class#SetmealController#0" />
-            <element signature="e#2256#2393#0" />
-            <element signature="e#2414#2514#0" />
-            <element signature="docComment;method#addSetmeal#0;class#SetmealController#0" />
-            <element signature="method#addSetmeal#0;class#SetmealController#0" />
-            <element signature="docComment;method#getSetmealById#0;class#SetmealController#0" />
-            <element signature="method#getSetmealById#0;class#SetmealController#0" />
-            <element signature="e#3184#3318#0" />
-            <element signature="e#3339#3439#0" />
-            <element signature="docComment;method#getGroupIdsById#0;class#SetmealController#0" />
-            <element signature="method#getGroupIdsById#0;class#SetmealController#0" />
-            <element signature="e#3627#3762#0" />
-            <element signature="e#3783#3883#0" />
-            <element signature="docComment;method#editSetmeal#0;class#SetmealController#0" />
-            <element signature="method#editSetmeal#0;class#SetmealController#0" />
-            <element signature="e#4130#4254#0" />
-            <element signature="e#4275#4375#0" />
-            <element signature="docComment;method#upload#0;class#SetmealController#0" />
-            <element signature="method#upload#0;class#SetmealController#0" />
-            <element signature="e#4631#4682#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/SetmealController.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckitemController.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1954,27 +1516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="321" column="38" lean-forward="true" selection-start-line="321" selection-start-column="38" selection-end-line="321" selection-end-column="38" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-breadcrumb#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-table-column#3;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#template#0;n#el-table-column#3;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-pagination#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/ResultEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1993,35 +1534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="467" selection-start-line="467" selection-end-line="467" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckitemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
-          <folding>
-            <element signature="docComment;class#CheckitemController#0" />
-            <element signature="docComment;method#getAllCheckitem#0;class#CheckitemController#0" />
-            <element signature="method#getAllCheckitem#0;class#CheckitemController#0" />
-            <element signature="docComment;method#doAdd#0;class#CheckitemController#0" />
-            <element signature="method#doAdd#0;class#CheckitemController#0" />
-            <element signature="docComment;method#doDel#0;class#CheckitemController#0" />
-            <element signature="method#doDel#0;class#CheckitemController#0" />
-            <element signature="docComment;method#getCheckitemById#0;class#CheckitemController#0" />
-            <element signature="method#getCheckitemById#0;class#CheckitemController#0" />
-            <element signature="docComment;method#doEdit#0;class#CheckitemController#0" />
-            <element signature="method#doEdit#0;class#CheckitemController#0" />
-            <element signature="docComment;method#getAllCheckItem#0;class#CheckitemController#0" />
-            <element signature="method#getAllCheckItem#0;class#CheckitemController#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2048,77 +1560,509 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/report_business.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkgroup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding>
+            <element signature="n#html#0;n#!!top" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="e#844#1132#0" />
+            <element signature="e#1171#1452#0" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-breadcrumb#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-table-column#4;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#template#0;n#el-table-column#4;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-table-column#7;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#template#0;n#el-table-column#7;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-pagination#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#html#0;n#!!top" />
+            <element signature="e#15000#20789#0" />
+            <element signature="e#15036#15551#0" />
+            <element signature="e#15111#15256#0" />
+            <element signature="e#15571#15611#0" />
+            <element signature="e#15630#20783#0" />
+            <element signature="e#15674#16374#0" />
+            <element signature="e#15741#15985#0" />
+            <element signature="e#15771#15967#0" />
+            <element signature="e#16001#16359#0" />
+            <element signature="e#16057#16258#0" />
+            <element signature="e#16264#16341#0" />
+            <element signature="e#16419#16903#0" />
+            <element signature="e#16613#16887#0" />
+            <element signature="e#16669#16788#0" />
+            <element signature="e#16794#16869#0" />
+            <element signature="e#16947#17584#0" />
+            <element signature="e#16965#17052#0" />
+            <element signature="e#17299#17568#0" />
+            <element signature="e#17355#17432#0" />
+            <element signature="e#17438#17513#0" />
+            <element signature="e#17631#17681#0" />
+            <element signature="e#17733#18304#0" />
+            <element signature="e#18052#18288#0" />
+            <element signature="e#18108#18187#0" />
+            <element signature="e#18193#18270#0" />
+            <element signature="e#18359#19771#0" />
+            <element signature="e#18661#18894#0" />
+            <element signature="e#18717#18795#0" />
+            <element signature="e#18801#18876#0" />
+            <element signature="e#19087#19755#0" />
+            <element signature="e#19143#19654#0" />
+            <element signature="e#19343#19630#0" />
+            <element signature="e#19407#19505#0" />
+            <element signature="e#19511#19604#0" />
+            <element signature="e#19660#19737#0" />
+            <element signature="e#19838#19945#0" />
+            <element signature="e#19996#20589#0" />
+            <element signature="e#20137#20574#0" />
+            <element signature="e#20221#20554#0" />
+            <element signature="e#20281#20401#0" />
+            <element signature="e#20407#20491#0" />
+            <element signature="e#20634#20773#0" />
+            <element signature="e#20652#20696#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="250" lean-forward="true" selection-start-line="250" selection-end-line="250" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#a#0;n#nav#0;n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#el-aside#0;n#el-container#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-container#0;n#el-container#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#3;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/setmeal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding>
+            <element signature="n#html#0;n#!!top" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="e#862#1036#0" />
+            <element signature="e#1080#1126#0" />
+            <element signature="e#1158#1343#0" />
+            <element signature="e#1361#1453#0" />
+            <element signature="e#1474#1762#0" />
+            <element signature="e#1801#2082#0" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-breadcrumb#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-table-column#3;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#template#0;n#el-table-column#3;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-table-column#7;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#template#0;n#el-table-column#7;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-pagination#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#7917#8171#0" />
+            <element signature="n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-upload#0;n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#4;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#4;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#4;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#5;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#5;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#5;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-upload#0;n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#4;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#4;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#4;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-row#5;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#5;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#5;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#el-dialog#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#html#0;n#!!top" />
+            <element signature="e#19867#25922#0" />
+            <element signature="e#19903#20602#0" />
+            <element signature="e#19968#19988#0" />
+            <element signature="e#20185#20330#0" />
+            <element signature="e#20622#20662#0" />
+            <element signature="e#20681#25916#0" />
+            <element signature="e#20725#21290#0" />
+            <element signature="e#20846#21275#0" />
+            <element signature="e#20959#21139#0" />
+            <element signature="e#20999#21115#0" />
+            <element signature="e#21145#21220#0" />
+            <element signature="e#21408#21763#0" />
+            <element signature="e#21826#22220#0" />
+            <element signature="e#21974#22055#0" />
+            <element signature="e#22085#22166#0" />
+            <element signature="e#22264#22826#0" />
+            <element signature="e#22432#22811#0" />
+            <element signature="e#22488#22667#0" />
+            <element signature="e#22528#22644#0" />
+            <element signature="e#22673#22756#0" />
+            <element signature="e#22877#23440#0" />
+            <element signature="e#22988#23425#0" />
+            <element signature="e#23073#23406#0" />
+            <element signature="e#23133#23253#0" />
+            <element signature="e#23259#23343#0" />
+            <element signature="e#23485#23915#0" />
+            <element signature="e#23542#23744#0" />
+            <element signature="e#23550#23743#0" />
+            <element signature="e#23760#23900#0" />
+            <element signature="e#23962#24092#0" />
+            <element signature="e#24144#24458#0" />
+            <element signature="e#24372#24443#0" />
+            <element signature="e#24525#24632#0" />
+            <element signature="e#24687#25905#0" />
+            <element signature="e#24913#25146#0" />
+            <element signature="e#24969#25047#0" />
+            <element signature="e#25053#25128#0" />
+            <element signature="e#25270#25504#0" />
+            <element signature="e#25326#25405#0" />
+            <element signature="e#25411#25486#0" />
+            <element signature="e#25652#25890#0" />
+            <element signature="e#25708#25791#0" />
+            <element signature="e#25797#25872#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/SetmealController.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckGroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="135" column="1" lean-forward="true" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
+          <folding>
+            <element signature="docComment;class#CheckGroupController#0" />
+            <element signature="docComment;method#getAllCheckGroupByCP#0;class#CheckGroupController#0" />
+            <element signature="method#getAllCheckGroupByCP#0;class#CheckGroupController#0" />
+            <element signature="docComment;method#doDel#0;class#CheckGroupController#0" />
+            <element signature="method#doDel#0;class#CheckGroupController#0" />
+            <element signature="docComment;method#doAdd#0;class#CheckGroupController#0" />
+            <element signature="method#doAdd#0;class#CheckGroupController#0" />
+            <element signature="docComment;method#getCheckGroupById#0;class#CheckGroupController#0" />
+            <element signature="method#getCheckGroupById#0;class#CheckGroupController#0" />
+            <element signature="docComment;method#getCheckitemBygId#0;class#CheckGroupController#0" />
+            <element signature="method#getCheckitemBygId#0;class#CheckGroupController#0" />
+            <element signature="docComment;method#doEdit#0;class#CheckGroupController#0" />
+            <element signature="method#doEdit#0;class#CheckGroupController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckitemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
+          <folding>
+            <element signature="docComment;class#CheckitemController#0" />
+            <element signature="docComment;method#getAllCheckitem#0;class#CheckitemController#0" />
+            <element signature="method#getAllCheckitem#0;class#CheckitemController#0" />
+            <element signature="docComment;method#doAdd#0;class#CheckitemController#0" />
+            <element signature="method#doAdd#0;class#CheckitemController#0" />
+            <element signature="docComment;method#doDel#0;class#CheckitemController#0" />
+            <element signature="method#doDel#0;class#CheckitemController#0" />
+            <element signature="docComment;method#getCheckitemById#0;class#CheckitemController#0" />
+            <element signature="method#getCheckitemById#0;class#CheckitemController#0" />
+            <element signature="docComment;method#doEdit#0;class#CheckitemController#0" />
+            <element signature="method#doEdit#0;class#CheckitemController#0" />
+            <element signature="docComment;method#getAllCheckItem#0;class#CheckitemController#0" />
+            <element signature="method#getAllCheckItem#0;class#CheckitemController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/SetmealController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="171" column="30" lean-forward="true" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;class#SetmealController#0" />
+            <element signature="e#867#882#0" />
+            <element signature="docComment;method#getAllSetmeal#0;class#SetmealController#0" />
+            <element signature="method#getAllSetmeal#0;class#SetmealController#0" />
+            <element signature="docComment;method#delSetmeal#0;class#SetmealController#0" />
+            <element signature="method#delSetmeal#0;class#SetmealController#0" />
+            <element signature="docComment;method#getAllCheckGroup#0;class#SetmealController#0" />
+            <element signature="method#getAllCheckGroup#0;class#SetmealController#0" />
+            <element signature="e#2256#2393#0" />
+            <element signature="e#2414#2514#0" />
+            <element signature="docComment;method#addSetmeal#0;class#SetmealController#0" />
+            <element signature="method#addSetmeal#0;class#SetmealController#0" />
+            <element signature="docComment;method#getSetmealById#0;class#SetmealController#0" />
+            <element signature="method#getSetmealById#0;class#SetmealController#0" />
+            <element signature="docComment;method#getGroupIdsById#0;class#SetmealController#0" />
+            <element signature="method#getGroupIdsById#0;class#SetmealController#0" />
+            <element signature="docComment;method#editSetmeal#0;class#SetmealController#0" />
+            <element signature="method#editSetmeal#0;class#SetmealController#0" />
+            <element signature="docComment;method#upload#0;class#SetmealController#0" />
+            <element signature="method#upload#0;class#SetmealController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/OrderSetting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="152">
+          <caret line="9" selection-start-line="9" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/OrderSettingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/OrderSettingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+        <state relative-caret-position="190">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderSettingServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="388">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.java">
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/OrderSettingMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="78" column="70" lean-forward="true" selection-start-line="78" selection-start-column="70" selection-end-line="78" selection-end-column="70" />
-          <folding>
-            <element signature="docComment;class#OrderSettingController#0" />
-            <element signature="docComment;method#getMonthOrderSetting#0;class#OrderSettingController#0" />
-            <element signature="method#getMonthOrderSetting#0;class#OrderSettingController#0" />
-            <element signature="docComment;method#upload#0;class#OrderSettingController#0" />
-            <element signature="docComment;method#editNumberByDate#0;class#OrderSettingController#0" />
-          </folding>
+        <state relative-caret-position="361">
+          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4655">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/ordersetting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="252" column="46" selection-start-line="252" selection-start-column="46" selection-end-line="252" selection-end-column="46" />
+        <state relative-caret-position="1970">
+          <caret line="310" column="39" lean-forward="true" selection-start-line="310" selection-start-column="39" selection-end-line="310" selection-end-column="39" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#el-button#0;n#div#0;n#el-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-breadcrumb#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#el-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#el-upload#0;n#div#0;n#el-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#el-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#template#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#6974#7918#0" />
-            <element signature="e#7025#7239#0" />
-            <element signature="e#7371#7538#0" />
-            <element signature="e#7742#7858#0" />
-            <element signature="e#8554#8650#0" />
-            <element signature="e#10117#10141#0" />
-            <element signature="e#10230#10862#0" />
-            <element signature="e#10577#10666#0" />
-            <element signature="e#10950#11553#0" />
-            <element signature="e#11329#11403#0" />
-            <element signature="e#12127#12135#0" />
-            <element signature="e#12546#12683#0" />
-            <element signature="e#12749#13075#0" />
-            <element signature="e#12767#12788#0" />
-            <element signature="e#13142#13355#0" />
-            <element signature="e#13474#13706#0" />
+            <element signature="n#template#0;n#template#0;n#div#1;n#template#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#template#0;n#template#0;n#template#0;n#div#1;n#template#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#template#0;n#template#0;n#template#0;n#template#0;n#div#1;n#template#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#template#0;n#template#0;n#template#0;n#template#0;n#div#1;n#template#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#template#1;n#template#0;n#template#0;n#template#0;n#div#1;n#template#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#template#1;n#template#0;n#template#0;n#template#0;n#div#1;n#template#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;class#OrderSettingController#0" />
+            <element signature="e#685#700#0" />
+            <element signature="docComment;method#getMonthOrderSetting#0;class#OrderSettingController#0" />
+            <element signature="method#getMonthOrderSetting#0;class#OrderSettingController#0" />
+            <element signature="docComment;method#upload#0;class#OrderSettingController#0" />
+            <element signature="method#upload#0;class#OrderSettingController#0" />
+            <element signature="e#1508#2621#0" />
+            <element signature="e#1902#2376#1" />
+            <element signature="docComment;method#editNumberByDate#0;class#OrderSettingController#0" />
+            <element signature="method#editNumberByDate#0;class#OrderSettingController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/ReportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="docComment;class#ReportController#0" />
+            <element signature="e#404#419#0" />
+            <element signature="docComment;method#getMemberReport#0;class#ReportController#0" />
+            <element signature="method#getMemberReport#0;class#ReportController#0" />
+            <element signature="e#743#1603#0" />
+            <element signature="e#1141#1296#1" />
+            <element signature="e#1624#1724#0" />
+            <element signature="e#1732#1741#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
         </state>
       </provider>
     </entry>
