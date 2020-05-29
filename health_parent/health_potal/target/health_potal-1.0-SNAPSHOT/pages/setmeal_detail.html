@@ -1,5 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-CN">
+
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,12 +15,17 @@
     <script src="../plugins/vue/vue.js"></script>
     <script src="../plugins/vue/axios-0.18.0.js"></script>
     <script src="../plugins/healthmobile.js"></script>
+
+    <!--用于获取上一个页面传过来的id-->
     <script>
         var id = getUrlParam("id");//根据请求URL中的参数名称获取对应的值
-        //alert(id);
     </script>
 </head>
+
+
+
 <body data-spy="scroll" data-target="#myNavbar" data-offset="150">
+
 <div id="app" class="app">
     <!-- 页面头部 -->
     <div class="top-header">
@@ -26,6 +33,9 @@
         <span class="center">传智健康</span>
         <span class="f-right"><i class="icon-more"></i></span>
     </div>
+
+
+
     <!-- 页面内容 -->
     <div class="contentBox">
         <div class="card">
@@ -40,13 +50,13 @@
                     <span>{{setmeal.age}}</span>
                 </p>
             </div>
-            <!--<div class="project-know">
+            <div class="project-know">
                 <a href="orderNotice.html" class="link-page">
                     <i class="icon-ask-circle"><span class="path1"></span><span class="path2"></span></i>
                     <span class="word">预约须知</span>
                     <span class="arrow"><i class="icon-rit-arrow"></i></span>
                 </a>
-            </div>-->
+            </div>
         </div>
         <div class="table-listbox">
             <div class="box-title">
@@ -94,13 +104,14 @@
 
         created(){
             //发送ajax请求，根据套餐ID查询套餐详细信息（包括套餐基本信息、套餐包含的检查组、检查组包含的检查项）
-            axios.post("/setmeal/findById.do?id=" + id).then((response) => {
+            // axios.post("/setmeal/findById.do?id=" + id).then((response) => {
                 // if(response.data.flag){
                 //     this.setmeal = response.data.data;
                 //     this.imgUrl = 'https://chuanzhi-health.oss-cn-chengdu.aliyuncs.com/' + this.setmeal.img;
                 // }
-            });
+            // });
         }
     });
 </script>
+
 </body>

@@ -1,5 +1,8 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-CN">
+
+
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +25,12 @@
         var id = getUrlParam("id");
     </script>
 </head>
+
+
+
 <body data-spy="scroll" data-target="#myNavbar" data-offset="150">
+
+
 <div id="app" class="app">
     <!-- 页面头部 -->
     <div class="top-header">
@@ -30,8 +38,14 @@
         <span class="center">传智健康</span>
         <span class="f-right"><i class="icon-more"></i></span>
     </div>
+
+
+
+
+
     <!-- 页面内容 -->
     <div class="contentBox">
+        <!--套餐相关部分信息-->
         <div class="card">
             <div class="">
                 <img :src="'https://chuanzhi-health.oss-cn-chengdu.aliyuncs.com/'+setmeal.img" width="100%"
@@ -53,10 +67,14 @@
                 </a>
             </div>
         </div>
+
+        <!--用户订单信息————需要提交-->
         <div class="form-info">
+
             <div class="info-title">
                 <span class="name">体检人信息</span>
             </div>
+
             <form class="info-form">
                 <div class="input-row">
                     <label>体检人</label>
@@ -96,21 +114,28 @@
                     <input v-model="orderInfo.orderDate" type="text" class="picktime" readonly>
                 </div>
             </form>
+
             <div class="box-button">
                 <button @click="submitOrder()" type="button" class="btn order-btn">提交预约</button>
             </div>
         </div>
     </div>
 </div>
+
+
+
+
+
 <script>
     var vue = new Vue({
         el: '#app',
         data: {
             setmeal: {},//套餐信息
-            orderInfo: {
+
+            orderInfo: {//预约信息
                 setmealId: id,
-                sex: '1'
-            }//预约信息
+                sex: '1'//默认值
+            }
         },
         methods: {
             //发送验证码
@@ -138,6 +163,7 @@
                     }
                 });
             },
+
             //提交预约
             submitOrder() {
                 //校验身份证号格式
@@ -153,7 +179,7 @@
                         window.location.href = "orderSuccess.html?orderId=" + response.data.data;
                     } else {
                         //预约失败，提示预约失败信息
-                        this.$message.error("预约失败");
+                        this.$message.error("对不起，预约失败");
                     }
                 });
             }
@@ -167,6 +193,8 @@
         }
     });
 </script>
+
+
 <script>
     //日期控件
     var calendar = new datePicker();
@@ -183,4 +211,8 @@
     });
 </script>
 </body>
+
+
+
+
 </html>

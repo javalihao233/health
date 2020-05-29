@@ -51,4 +51,11 @@ public interface SetmealMapper {
 
     @Select("SELECT s.name,COUNT(o.id) AS VALUE FROM t_order o,t_setmeal s WHERE o.setmeal_id = s.id GROUP BY s.name")
     Map<String,Object> getSetmealAndCount();
+
+    /**
+     * 根据套餐id 查询            套餐信息      检查组信息        检查项信息
+     * @param id  套餐id
+     * @return
+     */
+    Setmeal findById(int id);
 }

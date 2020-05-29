@@ -16,6 +16,21 @@ public class CheckItem implements Serializable {
     private String remark;//项目说明
     private String attention;//注意事项
 
+    public CheckItem(Integer id, String code, String name, String sex, String age, Float price, String type, String remark, String attention) {
+        this.id = id;
+        this.code = code;
+        this.name = name;
+        this.sex = sex;
+        this.age = age;
+        this.price = price;
+        this.type = type;
+        this.remark = remark;
+        this.attention = attention;
+    }
+
+    public CheckItem() {
+    }
+
     public Integer getId() {
         return id;
     }
@@ -56,22 +71,6 @@ public class CheckItem implements Serializable {
         this.age = age;
     }
 
-    public String getRemark() {
-        return remark;
-    }
-
-    public void setRemark(String remark) {
-        this.remark = remark;
-    }
-
-    public String getAttention() {
-        return attention;
-    }
-
-    public void setAttention(String attention) {
-        this.attention = attention;
-    }
-
     public Float getPrice() {
         return price;
     }
@@ -86,5 +85,21 @@ public class CheckItem implements Serializable {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public String getRemark() {
+        return remark;
+    }
+
+    public void setRemark(String remark) {
+        this.remark = remark;
+    }
+
+    public String getAttention() {
+        return attention;
+    }
+
+    public void setAttention(String attention) {
+        this.attention = attention;
     }
 }

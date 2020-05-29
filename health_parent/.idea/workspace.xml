@@ -2,15 +2,58 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="health_manager:war exploded" />
+      <artifact name="health_potal:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12a2d7f7-05cb-4b51-ba27-b6de49bf15fc" name="Default Changelist" comment="套参餐管——预约设置">
+    <list default="true" id="12a2d7f7-05cb-4b51-ba27-b6de49bf15fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/体检预约.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_manager/src/main/webapp/pages/ordersetting.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/src/main/webapp/pages/ordersetting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/CheckGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/CheckGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/CheckItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/CheckItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/Setmeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/Setmeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/CrowdUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/CrowdUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/SetmealService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/pages/ordersetting.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/health_manager-1.0-SNAPSHOT/pages/ordersetting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_manager/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_manager/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/ValidateCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/ValidateCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/src/main/webapp/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/src/main/webapp/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/src/main/webapp/pages/orderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/src/main/webapp/pages/orderInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/src/main/webapp/pages/setmeal.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/src/main/webapp/pages/setmeal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/src/main/webapp/pages/setmeal_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/src/main/webapp/pages/setmeal_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/pages/orderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/pages/orderInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/pages/setmeal.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/pages/setmeal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/pages/setmeal_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/target/health_potal-1.0-SNAPSHOT/pages/setmeal_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_potal/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_potal/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/SetmealMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/SetmealMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/SetmealMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/SetmealMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/src/main/resources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/src/main/resources/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/target/classes/com/lihao/mapper/SetmealMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/target/classes/com/lihao/mapper/SetmealMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/target/classes/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/target/classes/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/target/health_service-1.0-SNAPSHOT/WEB-INF/classes/com/lihao/mapper/SetmealMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/target/health_service-1.0-SNAPSHOT/WEB-INF/classes/com/lihao/mapper/SetmealMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/target/health_service-1.0-SNAPSHOT/WEB-INF/classes/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/target/health_service-1.0-SNAPSHOT/WEB-INF/classes/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_demo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vue_demo/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,29 +97,137 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/ReportController.java">
+        <entry file="file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="docComment;class#ReportController#0" />
-                <element signature="e#404#419#0" />
-                <element signature="docComment;method#getMemberReport#0;class#ReportController#0" />
-                <element signature="method#getMemberReport#0;class#ReportController#0" />
-                <element signature="e#743#1603#0" />
-                <element signature="e#1141#1296#1" />
-                <element signature="e#1624#1724#0" />
-                <element signature="e#1732#1741#0" />
-              </folding>
+            <state relative-caret-position="122">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt">
+        <entry file="file://$PROJECT_DIR$/health_manager/src/main/resources/redis.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_potal/src/main/webapp/pages/orderInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+            <state relative-caret-position="19">
+              <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#meta#2;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#script#6;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#p#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#4909#7112#0" />
+                <element signature="e#4945#5094#0" />
+                <element signature="e#5002#5084#0" />
+                <element signature="e#5113#6863#0" />
+                <element signature="e#5166#6111#0" />
+                <element signature="e#5333#5440#0" />
+                <element signature="e#5705#6095#0" />
+                <element signature="e#5796#5979#0" />
+                <element signature="e#5836#5955#0" />
+                <element signature="e#5985#6077#0" />
+                <element signature="e#6159#6853#0" />
+                <element signature="e#6245#6352#0" />
+                <element signature="e#6459#6837#0" />
+                <element signature="e#6520#6682#0" />
+                <element signature="e#6688#6819#0" />
+                <element signature="e#6883#7106#0" />
+                <element signature="e#6960#7095#0" />
+                <element signature="e#7012#7081#0" />
+                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#7202#7605#0" />
+                <element signature="e#7235#7253#0" />
+                <element signature="e#7277#7316#0" />
+                <element signature="e#7368#7376#0" />
+                <element signature="e#7429#7437#0" />
+                <element signature="e#7470#7543#0" />
+                <element signature="e#7472#7483#0" />
+                <element signature="e#7576#7599#0" />
+                <element signature="e#7578#7589#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_potal/src/main/webapp/pages/orderSuccess.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1273">
+              <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/spring-redis.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/redis.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/体检预约.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/ValidateCodeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/SetmealController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -95,25 +246,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>doEdit</find>
-      <find>新建</find>
-      <find>handleDelete</find>
-      <find>ids</find>
-      <find>delBatch</find>
-      <find>delBatch()</find>
-      <find>multipleSelection</find>
-      <find>dataList</find>
-      <find>findPage</find>
-      <find>getAllSetmeal</find>
-      <find>上传图片</find>
-      <find>imageUrl</find>
-      <find>delSetmeal</find>
-      <find>beforeAvatarUpload</find>
-      <find>autoUpload</find>
-      <find>upload</find>
-      <find>handleAvatarSuccess</find>
-      <find>targetObject</find>
-      <find>currentYear</find>
       <find>days</find>
       <find>cur</find>
       <find>initData</find>
@@ -125,6 +257,25 @@
       <find>是否</find>
       <find>设置</find>
       <find>handleOrderSet</find>
+      <find>体检预约</find>
+      <find>getAllSetmeal</find>
+      <find>handleUpdate</find>
+      <find>id</find>
+      <find>toOrderInfo()</find>
+      <find>checkItems</find>
+      <find>立即</find>
+      <find>toOrderInfo</find>
+      <find>checkGroups</find>
+      <find>setmeal</find>
+      <find>getSetmealById</find>
+      <find>submitOrder</find>
+      <find>checkTelephone</find>
+      <find>validateCodeButton</find>
+      <find>send4Order</find>
+      <find>orderInfo</find>
+      <find>checkIdCard</find>
+      <find>findById</find>
+      <find>submit</find>
     </findStrings>
     <replaceStrings>
       <replace>http://localhost:9999/vue_demo_war_exploded/plugins</replace>
@@ -141,27 +292,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/MemberMapper.java" />
-        <option value="$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/MemberService.java" />
-        <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/MemberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/SetmealService.java" />
-        <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/SetmealMapper.java" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/report_setmeal.html" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/ReportController.java" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/report_business.html" />
-        <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo5.java" />
-        <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo6.java" />
-        <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/father/Father.java" />
-        <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/father/Children.java" />
-        <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/map/HashMapTest.java" />
-        <option value="$PROJECT_DIR$/health_potal/src/main/resources/springmvc.xml" />
-        <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/CheckitemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/MyAspect.java" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/IUserDao.java" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/JdkProxy.java" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk/JdkTest.java" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibProxy.java" />
         <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -172,13 +302,10 @@
         <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html" />
         <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckGroupController.java" />
         <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/CheckGroupMapper.java" />
-        <option value="$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/CheckGroupMapper.xml" />
         <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/CheckGroupServiceImpl.java" />
         <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckGroupController.txt" />
         <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkgroup.html" />
         <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/setmeal.html" />
-        <option value="$PROJECT_DIR$/health_manager/src/main/resources/springmvc.xml" />
-        <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/SetmealServiceImpl.java" />
         <option value="$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/set/HashSetDemo.java" />
         <option value="$PROJECT_DIR$/quartzdemo/src/main/java/com/itheima/jobs/JobDemo2.java" />
         <option value="$PROJECT_DIR$/quartzdemo/src/main/java/com/itheima/jobs/JobDemo.java" />
@@ -192,6 +319,30 @@
         <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderSettingServiceImpl.java" />
         <option value="$PROJECT_DIR$/health_manager/src/main/webapp/pages/ordersetting.html" />
         <option value="$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt" />
+        <option value="$PROJECT_DIR$/health_potal/src/main/webapp/pages/index.html" />
+        <option value="$PROJECT_DIR$/health_potal/src/main/webapp/pages/setmeal.html" />
+        <option value="$PROJECT_DIR$/health_potal/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/体检预约.txt" />
+        <option value="$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/SetmealService.java" />
+        <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/SetmealServiceImpl.java" />
+        <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/SetmealMapper.java" />
+        <option value="$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/CheckItem.java" />
+        <option value="$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/CheckGroup.java" />
+        <option value="$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/Setmeal.java" />
+        <option value="$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/CheckitemMapper.xml" />
+        <option value="$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/CheckGroupMapper.xml" />
+        <option value="$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/SetmealMapper.xml" />
+        <option value="$PROJECT_DIR$/health_potal/src/main/webapp/pages/setmeal_detail.html" />
+        <option value="$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/CrowdUtils.java" />
+        <option value="$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/ValidateCodeController.java" />
+        <option value="$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/health_potal/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/health_manager/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/health_service/src/main/resources/spring-service.xml" />
+        <option value="$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/SetmealController.java" />
+        <option value="$PROJECT_DIR$/health_potal/src/main/webapp/pages/orderInfo.html" />
       </list>
     </option>
   </component>
@@ -227,11 +378,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="health_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="health_manager Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="health_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="health_manager Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -239,10 +390,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1523" />
-    <option name="height" value="997" />
+    <option name="x" value="211" />
+    <option name="y" value="385" />
+    <option name="width" value="980" />
+    <option name="height" value="1012" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -265,64 +416,28 @@
             <path>
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="health_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="health_service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="health_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="health_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="health_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="health_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="health_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="health_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lihao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lihao" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="health_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,8 +452,8 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590618906535" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gitForPro/springboot-git" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590751893680" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../crowdfunding/crowdfunding_potal/crowdfunding-potal-parent" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -389,7 +504,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.manager">
+  <component name="RunManager" selected="Tomcat Server.service">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itheima.App" />
       <module name="quartzdemo" />
@@ -1014,7 +1129,7 @@
       <workItem from="1590258971609" duration="3457000" />
       <workItem from="1590396234377" duration="818000" />
       <workItem from="1590429912104" duration="3441000" />
-      <workItem from="1590499508493" duration="48163000" />
+      <workItem from="1590499508493" duration="76382000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1590081113357</created>
@@ -1072,7 +1187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590601435795</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="套参餐管——预约设置">
+      <created>1590714747288</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590714747288</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1108,7 +1230,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="625726000" />
+    <option name="totallyTimeSpent" value="653945000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1121,20 +1243,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5058005" side_tool="true" weight="0.19678715" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.50870407" side_tool="true" weight="0.23828648" />
+      <window_info id="Favorites" order="5" sideWeight="0.5097192" side_tool="true" weight="0.19812584" />
       <window_info id="Web" order="6" sideWeight="0.5058548" side_tool="true" weight="0.25769746" />
-      <window_info active="true" content_ui="combo" x="486" y="193" width="244" height="484" id="Project" order="7" sideWeight="0.49129593" visible="true" weight="0.2871486" />
+      <window_info active="true" content_ui="combo" x="486" y="193" width="244" height="484" id="Project" order="7" sideWeight="0.49028078" visible="true" weight="0.30589023" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3207547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49732262" weight="0.2625" />
-      <window_info anchor="bottom" x="21" y="280" width="1494" height="263" id="Debug" order="3" sideWeight="0.49799198" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49732262" weight="0.25833333" />
+      <window_info anchor="bottom" x="21" y="280" width="1494" height="263" id="Debug" order="3" sideWeight="0.49799198" weight="0.38055557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32777777" />
@@ -1142,10 +1263,10 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3263889" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026774" side_tool="true" weight="0.39722222" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.16111112" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.16068867" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32916668" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.17777778" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32957748" />
       <window_info anchor="bottom" id="Tail" order="16" />
       <window_info anchor="right" id="Word Book" order="0" side_tool="true" />
@@ -1154,7 +1275,7 @@
       <window_info anchor="right" id="Ant Build" order="3" weight="0.24899599" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.40629184" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.55191255" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Translation Assistant" order="9" weight="0.32797858" />
@@ -1204,6 +1325,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
@@ -1223,30 +1370,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderServiceImpl.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/ValidateCodeController.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/SetmealController.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/OrderController.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/Demo2.java</url>
           <line>12</line>
@@ -1271,6 +1394,24 @@
           <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/CrowdUtils.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/OrderController.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderServiceImpl.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
@@ -1282,442 +1423,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/jdk2/CglibTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="83" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/CheckitemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/resources/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/PageInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/CheckitemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/CheckitemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="87" column="40" lean-forward="true" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
-          <folding>
-            <element signature="e#1236#1237#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-            <element signature="e#1914#1915#0" expanded="true" />
-            <element signature="e#1970#1971#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/CheckitemMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/CheckGroupMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/CheckGroupMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/CheckGroupServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/CheckGroupService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckGroupController.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/SetmealMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/SetmealMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_offer/src/main/java/cn/lihao/test/set/HashSetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/SetmealService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/SetmealServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="42" column="74" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quartzdemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quartzdemo/src/main/java/com/itheima/App.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/com/alibaba/dubbo/config/ConsumerConfig.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-          </folding>
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quartzdemo/src/main/java/com/itheima/jobs/JobDemo2.java">
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="14" column="30" lean-forward="true" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quartzdemo/src/main/java/com/itheima/jobs/JobDemo.java">
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="123">
+          <caret line="342" column="24" selection-start-line="342" selection-start-column="12" selection-end-line="342" selection-end-column="24" />
         </state>
       </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.0.2.RELEASE/spring-context-support-5.0.2.RELEASE-sources.jar!/org/springframework/scheduling/quartz/MethodInvokingJobDetailFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="106" column="36" lean-forward="true" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
-          <folding>
-            <element signature="e#3926#3927#0" expanded="true" />
-            <element signature="e#3949#3950#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quartzdemo/src/main/resources/spring-jobs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckitemController.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apache_poi/src/main/java/cn/lihao/test/PoiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-          <folding>
-            <element signature="docComment;method#testReadPoi#0;class#PoiTest#0" />
-            <element signature="method#testReadPoi#0;class#PoiTest#0" />
-            <element signature="e#706#886#1" />
-            <element signature="e#756#945#1" />
-            <element signature="e#754#876#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/ResultEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="467" selection-start-line="467" selection-end-line="467" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/POIUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="84" column="59" selection-start-line="84" selection-start-column="59" selection-end-line="84" selection-end-column="59" />
-          <folding>
-            <element signature="method#readExcel#0;class#POIUtils#0" />
-            <element signature="e#1076#1086#0" expanded="true" />
-            <element signature="e#1331#1380#1" />
-            <element signature="e#1784#1841#1" />
-            <element signature="e#2230#2372#1" />
-            <element signature="method#checkFile#0;class#POIUtils#0" />
-            <element signature="method#getWorkBook#0;class#POIUtils#0" />
-            <element signature="e#3328#3415#1" />
-            <element signature="e#3447#3534#1" />
-            <element signature="method#getCellValue#0;class#POIUtils#0" />
-            <element signature="e#3748#3789#1" />
-            <element signature="e#3944#4076#1" />
-            <element signature="e#4171#4235#1" />
-            <element signature="e#4289#5145#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/report_business.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkgroup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding>
-            <element signature="n#html#0;n#!!top" />
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#844#1132#0" />
-            <element signature="e#1171#1452#0" />
-            <element signature="n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-breadcrumb#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-table-column#4;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#template#0;n#el-table-column#4;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-table-column#7;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#template#0;n#el-table-column#7;n#el-table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-dialog#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#3;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#el-dialog#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-pagination#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#0;n#html#0;n#!!top" />
-            <element signature="e#15000#20789#0" />
-            <element signature="e#15036#15551#0" />
-            <element signature="e#15111#15256#0" />
-            <element signature="e#15571#15611#0" />
-            <element signature="e#15630#20783#0" />
-            <element signature="e#15674#16374#0" />
-            <element signature="e#15741#15985#0" />
-            <element signature="e#15771#15967#0" />
-            <element signature="e#16001#16359#0" />
-            <element signature="e#16057#16258#0" />
-            <element signature="e#16264#16341#0" />
-            <element signature="e#16419#16903#0" />
-            <element signature="e#16613#16887#0" />
-            <element signature="e#16669#16788#0" />
-            <element signature="e#16794#16869#0" />
-            <element signature="e#16947#17584#0" />
-            <element signature="e#16965#17052#0" />
-            <element signature="e#17299#17568#0" />
-            <element signature="e#17355#17432#0" />
-            <element signature="e#17438#17513#0" />
-            <element signature="e#17631#17681#0" />
-            <element signature="e#17733#18304#0" />
-            <element signature="e#18052#18288#0" />
-            <element signature="e#18108#18187#0" />
-            <element signature="e#18193#18270#0" />
-            <element signature="e#18359#19771#0" />
-            <element signature="e#18661#18894#0" />
-            <element signature="e#18717#18795#0" />
-            <element signature="e#18801#18876#0" />
-            <element signature="e#19087#19755#0" />
-            <element signature="e#19143#19654#0" />
-            <element signature="e#19343#19630#0" />
-            <element signature="e#19407#19505#0" />
-            <element signature="e#19511#19604#0" />
-            <element signature="e#19660#19737#0" />
-            <element signature="e#19838#19945#0" />
-            <element signature="e#19996#20589#0" />
-            <element signature="e#20137#20574#0" />
-            <element signature="e#20221#20554#0" />
-            <element signature="e#20281#20401#0" />
-            <element signature="e#20407#20491#0" />
-            <element signature="e#20634#20773#0" />
-            <element signature="e#20652#20696#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="250" lean-forward="true" selection-start-line="250" selection-end-line="250" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#a#0;n#nav#0;n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#el-aside#0;n#el-container#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#el-container#0;n#el-container#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#3;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/setmeal.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1880,124 +1605,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/SetmealController.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckGroupController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="135" column="1" lean-forward="true" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
-          <folding>
-            <element signature="docComment;class#CheckGroupController#0" />
-            <element signature="docComment;method#getAllCheckGroupByCP#0;class#CheckGroupController#0" />
-            <element signature="method#getAllCheckGroupByCP#0;class#CheckGroupController#0" />
-            <element signature="docComment;method#doDel#0;class#CheckGroupController#0" />
-            <element signature="method#doDel#0;class#CheckGroupController#0" />
-            <element signature="docComment;method#doAdd#0;class#CheckGroupController#0" />
-            <element signature="method#doAdd#0;class#CheckGroupController#0" />
-            <element signature="docComment;method#getCheckGroupById#0;class#CheckGroupController#0" />
-            <element signature="method#getCheckGroupById#0;class#CheckGroupController#0" />
-            <element signature="docComment;method#getCheckitemBygId#0;class#CheckGroupController#0" />
-            <element signature="method#getCheckitemBygId#0;class#CheckGroupController#0" />
-            <element signature="docComment;method#doEdit#0;class#CheckGroupController#0" />
-            <element signature="method#doEdit#0;class#CheckGroupController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/CheckitemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
-          <folding>
-            <element signature="docComment;class#CheckitemController#0" />
-            <element signature="docComment;method#getAllCheckitem#0;class#CheckitemController#0" />
-            <element signature="method#getAllCheckitem#0;class#CheckitemController#0" />
-            <element signature="docComment;method#doAdd#0;class#CheckitemController#0" />
-            <element signature="method#doAdd#0;class#CheckitemController#0" />
-            <element signature="docComment;method#doDel#0;class#CheckitemController#0" />
-            <element signature="method#doDel#0;class#CheckitemController#0" />
-            <element signature="docComment;method#getCheckitemById#0;class#CheckitemController#0" />
-            <element signature="method#getCheckitemById#0;class#CheckitemController#0" />
-            <element signature="docComment;method#doEdit#0;class#CheckitemController#0" />
-            <element signature="method#doEdit#0;class#CheckitemController#0" />
-            <element signature="docComment;method#getAllCheckItem#0;class#CheckitemController#0" />
-            <element signature="method#getAllCheckItem#0;class#CheckitemController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/SetmealController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="171" column="30" lean-forward="true" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
-          <folding>
-            <element signature="docComment;class#SetmealController#0" />
-            <element signature="e#867#882#0" />
-            <element signature="docComment;method#getAllSetmeal#0;class#SetmealController#0" />
-            <element signature="method#getAllSetmeal#0;class#SetmealController#0" />
-            <element signature="docComment;method#delSetmeal#0;class#SetmealController#0" />
-            <element signature="method#delSetmeal#0;class#SetmealController#0" />
-            <element signature="docComment;method#getAllCheckGroup#0;class#SetmealController#0" />
-            <element signature="method#getAllCheckGroup#0;class#SetmealController#0" />
-            <element signature="e#2256#2393#0" />
-            <element signature="e#2414#2514#0" />
-            <element signature="docComment;method#addSetmeal#0;class#SetmealController#0" />
-            <element signature="method#addSetmeal#0;class#SetmealController#0" />
-            <element signature="docComment;method#getSetmealById#0;class#SetmealController#0" />
-            <element signature="method#getSetmealById#0;class#SetmealController#0" />
-            <element signature="docComment;method#getGroupIdsById#0;class#SetmealController#0" />
-            <element signature="method#getGroupIdsById#0;class#SetmealController#0" />
-            <element signature="docComment;method#editSetmeal#0;class#SetmealController#0" />
-            <element signature="method#editSetmeal#0;class#SetmealController#0" />
-            <element signature="docComment;method#upload#0;class#SetmealController#0" />
-            <element signature="method#upload#0;class#SetmealController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/OrderSetting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" selection-start-line="9" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/OrderSettingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderSettingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/OrderSettingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/checkitem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4655">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/ordersetting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1970">
+        <state relative-caret-position="-13">
           <caret line="310" column="39" lean-forward="true" selection-start-line="310" selection-start-column="39" selection-end-line="310" selection-end-column="39" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
@@ -2023,48 +1633,547 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.java">
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/report_member.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/webapp/pages/report_setmeal.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/SetmealController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
+          <folding>
+            <element signature="docComment;class#SetmealController#0" />
+            <element signature="e#867#882#0" />
+            <element signature="docComment;method#getAllSetmeal#0;class#SetmealController#0" />
+            <element signature="method#getAllSetmeal#0;class#SetmealController#0" />
+            <element signature="e#1427#1577#0" />
+            <element signature="e#1598#1698#0" />
+            <element signature="docComment;method#delSetmeal#0;class#SetmealController#0" />
+            <element signature="method#delSetmeal#0;class#SetmealController#0" />
+            <element signature="e#1871#1974#0" />
+            <element signature="e#1995#2095#0" />
+            <element signature="docComment;method#getAllCheckGroup#0;class#SetmealController#0" />
+            <element signature="method#getAllCheckGroup#0;class#SetmealController#0" />
+            <element signature="e#2256#2393#0" />
+            <element signature="e#2414#2514#0" />
+            <element signature="docComment;method#addSetmeal#0;class#SetmealController#0" />
+            <element signature="method#addSetmeal#0;class#SetmealController#0" />
+            <element signature="e#2759#3009#0" />
+            <element signature="e#2773#2829#0" />
+            <element signature="e#3030#3130#0" />
+            <element signature="docComment;method#getSetmealById#0;class#SetmealController#0" />
+            <element signature="method#getSetmealById#0;class#SetmealController#0" />
+            <element signature="e#3311#3445#0" />
+            <element signature="e#3466#3566#0" />
+            <element signature="docComment;method#getGroupIdsById#0;class#SetmealController#0" />
+            <element signature="method#getGroupIdsById#0;class#SetmealController#0" />
+            <element signature="e#3754#3889#0" />
+            <element signature="e#3910#4010#0" />
+            <element signature="docComment;method#editSetmeal#0;class#SetmealController#0" />
+            <element signature="method#editSetmeal#0;class#SetmealController#0" />
+            <element signature="e#4298#4422#0" />
+            <element signature="e#4443#4543#0" />
+            <element signature="docComment;method#upload#0;class#SetmealController#0" />
+            <element signature="method#upload#0;class#SetmealController#0" />
+            <element signature="e#4734#4785#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8.0_221/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/CheckGroupMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/CheckItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1709#1710#0" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1919#1920#0" expanded="true" />
+            <element signature="e#1951#1952#0" expanded="true" />
+            <element signature="e#2001#2002#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/CheckGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding>
-            <element signature="docComment;class#OrderSettingController#0" />
-            <element signature="e#685#700#0" />
-            <element signature="docComment;method#getMonthOrderSetting#0;class#OrderSettingController#0" />
-            <element signature="method#getMonthOrderSetting#0;class#OrderSettingController#0" />
-            <element signature="docComment;method#upload#0;class#OrderSettingController#0" />
-            <element signature="method#upload#0;class#OrderSettingController#0" />
-            <element signature="e#1508#2621#0" />
-            <element signature="e#1902#2376#1" />
-            <element signature="docComment;method#editNumberByDate#0;class#OrderSettingController#0" />
-            <element signature="method#editNumberByDate#0;class#OrderSettingController#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1558#1559#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/ReportController.java">
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/Setmeal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="247">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding>
-            <element signature="docComment;class#ReportController#0" />
-            <element signature="e#404#419#0" />
-            <element signature="docComment;method#getMemberReport#0;class#ReportController#0" />
-            <element signature="method#getMemberReport#0;class#ReportController#0" />
-            <element signature="e#743#1603#0" />
-            <element signature="e#1141#1296#1" />
-            <element signature="e#1624#1724#0" />
-            <element signature="e#1732#1741#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_manager/src/main/java/com/lihao/controller/OrderSettingController.txt">
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/CheckitemMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        <state relative-caret-position="57">
+          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="51" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/CheckGroupMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/com/lihao/mapper/SetmealMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/SetmealMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding>
+            <element signature="docComment;method#findById#0;class#SetmealMapper#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springsecurity/src/main/java/com/lihao/service/impl/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/webapp/plugins/datapicker/datePicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3534">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/webapp/pages/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/CrowdUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/domain/OrderSetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding>
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/com/lihao/util/ResultEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="61" column="60" lean-forward="true" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+          <folding>
+            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8.0_221/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding>
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/OrderSettingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/resources/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8.0_221/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="376" column="18" selection-start-line="376" selection-start-column="18" selection-end-line="376" selection-end-column="18" />
+          <folding>
+            <element signature="e#15710#15711#0" expanded="true" />
+            <element signature="e#15746#15747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/com/lihao/service/SetmealService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/SetmealServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="105" column="19" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+          <folding>
+            <element signature="e#2679#2680#0" expanded="true" />
+            <element signature="e#2734#2735#0" expanded="true" />
+            <element signature="e#3666#3667#0" expanded="true" />
+            <element signature="e#3726#3727#0" expanded="true" />
+            <element signature="e#4235#4236#0" expanded="true" />
+            <element signature="e#4284#4285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/webapp/pages/setmeal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <element signature="n#html#0;n#!!top" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#2082#2611#0" />
+            <element signature="e#2116#2169#0" />
+            <element signature="e#2189#2605#0" />
+            <element signature="e#2315#2593#0" />
+            <element signature="e#2363#2471#0" />
+            <element signature="e#2475#2579#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/webapp/pages/setmeal_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+          <folding>
+            <element signature="n#script#3;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#label#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#3575#3666#0" />
+            <element signature="e#3684#3802#0" />
+            <element signature="e#3711#3792#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service/src/main/java/com/lihao/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/webapp/pages/orderInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#meta#2;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#script#6;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#4909#7112#0" />
+            <element signature="e#4945#5094#0" />
+            <element signature="e#5002#5084#0" />
+            <element signature="e#5113#6863#0" />
+            <element signature="e#5166#6111#0" />
+            <element signature="e#5333#5440#0" />
+            <element signature="e#5705#6095#0" />
+            <element signature="e#5796#5979#0" />
+            <element signature="e#5836#5955#0" />
+            <element signature="e#5985#6077#0" />
+            <element signature="e#6159#6853#0" />
+            <element signature="e#6245#6352#0" />
+            <element signature="e#6459#6837#0" />
+            <element signature="e#6520#6682#0" />
+            <element signature="e#6688#6819#0" />
+            <element signature="e#6883#7106#0" />
+            <element signature="e#6960#7095#0" />
+            <element signature="e#7012#7081#0" />
+            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#7202#7605#0" />
+            <element signature="e#7235#7253#0" />
+            <element signature="e#7277#7316#0" />
+            <element signature="e#7368#7376#0" />
+            <element signature="e#7429#7437#0" />
+            <element signature="e#7470#7543#0" />
+            <element signature="e#7472#7483#0" />
+            <element signature="e#7576#7599#0" />
+            <element signature="e#7578#7589#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/webapp/pages/orderSuccess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/体检预约.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/ValidateCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/SetmealController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_potal/src/main/java/com/lihao/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_manager/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

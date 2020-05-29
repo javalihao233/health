@@ -33,25 +33,24 @@ public class SetmealController {
     }
 
     /**
-     * 查询体检预约详情
+     * 查询体检预约详情        涉及到的是三张表的信息
      *
      * @param id
      * @return
      */
     @RequestMapping("/setmeal/findById")
     public ResultEntity findById(int id) {
-//        try {
-//            Setmeal setmeal = setmealService.findById(id);
-//            return ResultEntity.successWithData(setmeal);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//            return ResultEntity.failed(e.getMessage());
-//        }
-        return ResultEntity.failed("123");
+        try {
+            Setmeal setmeals = setmealService.findById(id);
+            return ResultEntity.successWithData(setmeals);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ResultEntity.failed(e.getMessage());
+        }
     }
 
     /**
-     * 发起预约         根据id查询套餐信息
+     * 发起预约         根据id查询套餐信息   用于显示在发起预约页面展示
      *
      * @param id
      * @return
@@ -60,6 +59,7 @@ public class SetmealController {
     public ResultEntity getSetmealById(int id) {
         try {
             Setmeal setmeal = setmealService.getSetmealById(id);
+            System.out.println(setmeal);
             return ResultEntity.successWithData(setmeal);
         } catch (Exception e) {
             e.printStackTrace();

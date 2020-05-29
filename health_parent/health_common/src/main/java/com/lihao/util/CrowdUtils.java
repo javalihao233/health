@@ -87,11 +87,11 @@ public class CrowdUtils {
     public static void sendShortMessage(String appcode, String randomCode, String phoneNum) {
         // 调用短信发送接口时的访问地址
 //        String host = "https://feginesms.market.alicloudapi.com";
-        String host = "https://cdcxdxjk.market.alicloudapi.com";
+        String host = "http://dingxin.market.alicloudapi.com";
 
         // 具体访问路径
 //        String path = "/codeNotice";
-        String path = "/chuangxin/dxjk";
+        String path = "/dx/sendSms";
         // 请求方式
         String method = "POST";
 
@@ -106,10 +106,13 @@ public class CrowdUtils {
         Map<String, String> querys = new HashMap<String, String>();
 
         // 验证码
-        querys.put("content", "【创信】你的验证码是：5873，3分钟内有效！");
+        querys.put("param", "code:"+randomCode);
+
+        querys.put("tpl_id", "TP1711063");
 
         // 接收短信的手机号
         querys.put("mobile", phoneNum);
+
         Map<String, String> bodys = new HashMap<String, String>();
 
         // JDK 1.8示例代码请在这里下载： http://code.fegine.com/Tools.zip

@@ -16,11 +16,17 @@ public class CheckGroup implements Serializable {
     private String attention;//注意事项
     private List<CheckItem> checkItems;//一个检查组合包含多个检查项
 
-    public List<CheckItem> getCheckItems() {
-        return checkItems;
+    public CheckGroup() {
     }
 
-    public void setCheckItems(List<CheckItem> checkItems) {
+    public CheckGroup(Integer id, String code, String name, String helpCode, String sex, String remark, String attention, List<CheckItem> checkItems) {
+        this.id = id;
+        this.code = code;
+        this.name = name;
+        this.helpCode = helpCode;
+        this.sex = sex;
+        this.remark = remark;
+        this.attention = attention;
         this.checkItems = checkItems;
     }
 
@@ -78,5 +84,13 @@ public class CheckGroup implements Serializable {
 
     public void setAttention(String attention) {
         this.attention = attention;
+    }
+
+    public List<CheckItem> getCheckItems() {
+        return checkItems;
+    }
+
+    public void setCheckItems(List<CheckItem> checkItems) {
+        this.checkItems = checkItems;
     }
 }

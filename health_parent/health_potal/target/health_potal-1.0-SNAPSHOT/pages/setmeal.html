@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,16 @@
     <title>预约</title>
     <link rel="stylesheet" href="../css/page-health-order.css" />
 </head>
+
+
+
+
+
+
+
+
+
+
 <body data-spy="scroll" data-target="#myNavbar" data-offset="150">
 <div class="app" id="app">
     <!-- 页面头部 -->
@@ -19,6 +30,8 @@
         <span class="center">传智健康</span>
         <span class="f-right"><i class="icon-more"></i></span>
     </div>
+
+
     <!-- 页面内容 -->
     <div class="contentBox">
         <div class="list-column1">
@@ -40,6 +53,9 @@
         </div>
     </div>
 </div>
+
+
+
 <!-- 页面 css js -->
 <script src="../plugins/vue/vue.js"></script>
 <script src="../plugins/vue/axios-0.18.0.js"></script>
@@ -58,7 +74,7 @@
                     this.setmealList = res.data.data;
                 }else{
                     //查询失败，弹出提示信息
-                    this.$message.error("123");
+                    this.$message.error("查询数据失败");
                 }
             });
         }

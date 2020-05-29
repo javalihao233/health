@@ -168,4 +168,14 @@ public class SetmealServiceImpl implements SetmealService {
     public Map<String,Object> getSetmealAndCount() {
         return setmealMapper.getSetmealAndCount();
     }
+
+    /**
+     * 根据套餐id 查询            套餐信息      检查组信息        检查项信息
+     * @param id  套餐id
+     * @return
+     */
+    @Override
+    public Setmeal findById(int id) {
+        return setmealMapper.findById(id);
+    }
 }

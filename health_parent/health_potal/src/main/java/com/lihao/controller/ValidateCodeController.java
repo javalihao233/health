@@ -24,8 +24,7 @@ public class ValidateCodeController {
         try {
             System.out.println(telephone);
             //0. 生成随机验证码
-//            String randomCode = CrowdUtils.randomCode(4);//随机验证码
-            String randomCode = "6666";
+            String randomCode = CrowdUtils.randomCode(4);//随机验证码
 
             //1. 将验证码存入redis
             jedisPool.getResource().setex("tel", 5 * 60, randomCode);

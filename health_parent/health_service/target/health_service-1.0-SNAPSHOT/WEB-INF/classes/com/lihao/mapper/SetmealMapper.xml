@@ -3,6 +3,42 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.lihao.mapper.SetmealMapper">
 
+    <resultMap id="resMap" type="Setmeal">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="code" column="code"/>
+        <result property="helpCode" column="helpCode"/>
+        <result property="sex" column="sex"/>
+        <result property="age" column="age"/>
+        <result property="price" column="price"/>
+        <result property="remark" column="remark"/>
+        <result property="attention" column="attention"/>
+        <result property="img" column="img"/>
+
+        <collection property="checkGroups" ofType="com.lihao.domain.CheckGroup">
+            <id property="id" column="id"/>
+            <result property="code" column="code"/>
+            <result property="name" column="name"/>
+            <result property="helpCode" column="helpCode"/>
+            <result property="sex" column="sex"/>
+            <result property="remark" column="remark"/>
+            <result property="attention" column="attention"/>
+
+            <!--<collection property="checkItems" ofType="com.lihao.domain.CheckItem">-->
+                <!--<id property="id" column="id"/>-->
+                <!--<result property="code" column="coode"/>-->
+                <!--<result property="name" column="name"/>-->
+                <!--<result property="sex" column="sex"/>-->
+                <!--<result property="age" column="age"/>-->
+                <!--<result property="price" column="price"/>-->
+                <!--<result property="type" column="type"/>-->
+                <!--<result property="remark" column="remark"/>-->
+                <!--<result property="attention" column="attention"/>-->
+            <!--</collection>-->
+        </collection>
+
+    </resultMap>
+
     <select id="getAllSetmeal" resultType="Setmeal">
         select * from t_setmeal
         <where>
@@ -16,5 +52,16 @@
       INSERT INTO t_setmeal (code,name,sex,age,helpCode,price,remark,attention,img)
       VALUES(#{code},#{name},#{sex},#{age},#{helpCode},#{price},#{remark},#{attention},#{img})
     </insert>
+
+
+    <select id="findById" resultMap="resMap">
+    SELECT sm.`name`,sm.`img`,sm.`attention`,sm.`sex`,sm.`age`,
+           cg.`name`,cg.`attention`,
+           ck.`name`
+    FROM t_setmeal_checkgroup sc LEFT JOIN t_setmeal sm ON sc.`setmeal_id` = sm.`id`
+    LEFT JOIN t_checkgroup cg ON cg.`id` = sc.`checkgroup_id`
+    LEFT JOIN t_checkgroup_checkitem cc ON cc.`checkgroup_id` = sc.`checkgroup_id`
+    LEFT JOIN t_checkitem ck ON ck.`id` = cc.`checkitem_id` WHERE sm.`id` = #{id}
+    </select>
 
 </mapper>

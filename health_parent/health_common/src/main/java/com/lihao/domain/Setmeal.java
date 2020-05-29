@@ -19,6 +19,23 @@ public class Setmeal implements Serializable {
     private String img;//套餐对应图片存储路径
     private List<CheckGroup> checkGroups;//体检套餐对应的检查组，多对多关系
 
+    public Setmeal() {
+    }
+
+    public Setmeal(Integer id, String name, String code, String helpCode, String sex, String age, Float price, String remark, String attention, String img, List<CheckGroup> checkGroups) {
+        this.id = id;
+        this.name = name;
+        this.code = code;
+        this.helpCode = helpCode;
+        this.sex = sex;
+        this.age = age;
+        this.price = price;
+        this.remark = remark;
+        this.attention = attention;
+        this.img = img;
+        this.checkGroups = checkGroups;
+    }
+
     public List<CheckGroup> getCheckGroups() {
         return checkGroups;
     }

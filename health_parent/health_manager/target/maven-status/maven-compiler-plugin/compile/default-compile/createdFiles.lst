@@ -1,5 +1,13 @@
+com\lihao\jdk2\CglibTest.class
 com\lihao\controller\OrderSettingController.class
-com\lihao\controller\ReportController.class
-com\lihao\controller\CheckGroupController.class
+com\lihao\jdk2\UserDaoImpl.class
+com\lihao\jdk2\CglibProxy.class
+com\lihao\jdk\IUserDao.class
 com\lihao\controller\CheckitemController.class
 com\lihao\controller\SetmealController.class
+com\lihao\jdk\JdkTest.class
+com\lihao\controller\ReportController.class
+com\lihao\jdk\UserDaoImpl.class
+com\lihao\controller\CheckGroupController.class
+com\lihao\jdk\JdkProxy.class
+com\lihao\jdk\MyAspect.class
