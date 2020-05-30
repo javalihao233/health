@@ -6,4 +6,12 @@
     <insert id="add" useGeneratedKeys="true" keyProperty="id">
         insert into t_member (name,phoneNumber,idCard,sex,regTime) values(#{name},#{phoneNumber},#{idCard},#{sex},#{regTime})
     </insert>
+
+
+    <select id="getMemberByMonth" resultType="Integer">
+        SELECT COUNT(*) FROM t_member WHERE regTime &lt;
+        <foreach collection="months" item="month" separator=";">
+             #{month}
+        </foreach>
+    </select>
 </mapper>

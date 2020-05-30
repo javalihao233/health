@@ -1,4 +1,5 @@
 com\lihao\domain\CheckGroup.class
+com\lihao\swagger\SwaggerConfig.class
 com\lihao\util\MessageConstant.class
 com\lihao\domain\Menu.class
 com\lihao\domain\Role.class

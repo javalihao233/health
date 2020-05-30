@@ -48,4 +48,12 @@
 
 
     <import resource="spring-redis.xml"></import>
+    <import resource="swagger.xml"></import>
+
+
+    <bean class="com.lihao.swagger.SwaggerConfig"/>
+    <!-- swagger -->
+    <bean id="swagger2Config"  class="springfox.documentation.swagger2.configuration.Swagger2DocumentationConfiguration"/>
+    <mvc:resources location="classpath*:/META-INF/resources/" mapping="swagger-ui.html" />
+    <mvc:resources location="classpath:/META-INF/resources/webjars/" mapping="/webjars/**" />
 </beans>
