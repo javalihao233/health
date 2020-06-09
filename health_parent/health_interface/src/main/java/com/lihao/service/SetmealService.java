@@ -35,5 +35,5 @@ public interface SetmealService {
      * @param id
      * @return
      */
-    Setmeal  findById(int id);
+    Setmeal findById(int id);
 }

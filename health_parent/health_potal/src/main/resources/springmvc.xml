@@ -37,7 +37,9 @@
     <dubbo:registry timeout="60000" address="zookeeper://127.0.0.1:2181"/>
 
     <!--批量扫描-->
-    <dubbo:annotation package="com.lihao.controller"  />
+    <dubbo:annotation package="com.lihao.controller" />
+
+    <dubbo:consumer timeout="60000"/>
 
     <import resource="spring-redis.xml"></import>
 </beans>

@@ -18,12 +18,13 @@ public class MemberServiceImpl implements MemberService{
 
     @Override
     public List<Integer> getMemberByMonth(List<String> listMonth) {//2020.02
-        List<String> months = new ArrayList<>();
+        List<Integer> months = new ArrayList<>();
         for (String s : listMonth) {
             s+="-31";
-            months.add(s);
+            Integer num = memberMapper.getMemberByMonth(s);
+            months.add(num);
         }
-        return  memberMapper.getMemberByMonth(months);
+        return months;
     }
 
 }

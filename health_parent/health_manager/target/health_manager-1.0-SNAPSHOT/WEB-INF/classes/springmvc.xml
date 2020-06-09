@@ -27,14 +27,18 @@
     </mvc:annotation-driven>
     <!-- 指定应用名称 -->
     <dubbo:application name="health_manager" />
-    <!--指定服务注册中心地址-->
-    <dubbo:registry timeout="600000" address="zookeeper://127.0.0.1:2181"/>
+
+    <!--指定服务注册中心地址   check="false" 表示是否启动时检查zookeeper是否检查-->
+    <dubbo:registry timeout="600000" address="zookeeper://127.0.0.1:2181" check="false" />
+
     <!--批量扫描-->
-    <dubbo:annotation package="com.lihao.controller" />
+    <dubbo:annotation package="com.lihao.controller"/>
+
     <!--监控中心 -->
     <dubbo:monitor protocol="registry"/>
+
     <!--是否启动时检查，默认开启。开发阶段最好关闭   timeout：超时时间 单位：毫秒-->
-    <dubbo:consumer check="false" timeout="600000"/>
+    <dubbo:consumer check="false" timeout="600000"  />
 
 
 

@@ -9,9 +9,6 @@
 
 
     <select id="getMemberByMonth" resultType="Integer">
-        SELECT COUNT(*) FROM t_member WHERE regTime &lt;
-        <foreach collection="months" item="month" separator=";">
-             #{month}
-        </foreach>
+        select count(id) from t_member where regTime &lt;= #{value}
     </select>
 </mapper>

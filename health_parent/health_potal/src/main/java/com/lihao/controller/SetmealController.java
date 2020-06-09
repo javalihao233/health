@@ -41,8 +41,8 @@ public class SetmealController {
     @RequestMapping("/setmeal/findById")
     public ResultEntity findById(int id) {
         try {
-            Setmeal setmeals = setmealService.findById(id);
-            return ResultEntity.successWithData(setmeals);
+            Setmeal setmeal = setmealService.findById(id);
+            return ResultEntity.successWithData(setmeal);
         } catch (Exception e) {
             e.printStackTrace();
             return ResultEntity.failed(e.getMessage());

@@ -86,27 +86,27 @@ public class ReportController {
         System.out.println(instance.get(Calendar.MONTH));//10
     }
 
-//    /**
-//     * 套餐占比饼状图
-//     *
-//     * @return
-//     */
-//    @RequestMapping("/getSetmealReport")
-//    public ResultEntity getSetmealReport() {
-//        HashMap<String, Object> hashMap = new HashMap<>();
-//
-//        //1. 获取所有套餐名称
-//        List<String> list = setmealService.getAllSetmealName();
-//
-//        //2. 获取套餐名称及数量
-//        List<Map<String, Object>> mapList = new ArrayList<>();
-//        Map<String, Object> setmealMap = setmealService.getSetmealAndCount();
-//
-//        //3. 封装前端需要的数据
-//        hashMap.put("setmealNames", list);
-//        hashMap.put("setmealCount", mapList);
-//
-//
-//        return ResultEntity.successWithData(hashMap);
-//    }
+    /**
+     * 套餐占比饼状图
+     *
+     * @return
+     */
+    @RequestMapping("/getSetmealReport")
+    public ResultEntity getSetmealReport() {
+        HashMap<String, Object> hashMap = new HashMap<>();
+
+        //1. 获取所有套餐名称
+        List<String> list = setmealService.getAllSetmealName();
+
+        //2. 获取套餐名称及数量
+        List<Map<String, Object>> mapList = new ArrayList<>();
+        Map<String, Object> setmealMap = setmealService.getSetmealAndCount();
+
+        //3. 封装前端需要的数据
+        hashMap.put("setmealNames", list);
+        hashMap.put("setmealCount", mapList);
+
+
+        return ResultEntity.successWithData(hashMap);
+    }
 }

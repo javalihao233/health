@@ -1,10 +1,7 @@
 package com.lihao.mapper;
 
 import com.lihao.domain.Member;
-import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-
-import java.util.List;
 
 public interface MemberMapper {
 
@@ -20,5 +17,5 @@ public interface MemberMapper {
 //    Integer getMemberByMonth(String s);
 
     //    查询指定日期之前的会员数量
-    List<Integer> getMemberByMonth(@Param("months") List<String> months);
+    Integer getMemberByMonth(String s);
 }

@@ -50,8 +50,6 @@
     //myChart.setOption(option);
 
     axios.get("/report/getSetmealReport.do").then((res) => {
-        alert(res.data.data.setmealNames);
-        alert(res.data.data.setmealCount);
         myChart1.setOption({
             title: {
                 text: '套餐预约占比',
