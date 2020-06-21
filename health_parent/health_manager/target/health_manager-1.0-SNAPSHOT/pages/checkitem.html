@@ -45,6 +45,7 @@
             <!--table表格-->
             <el-table size="small" current-row-key="id" :data="dataList" stripe highlight-current-row>
                 <el-table-column type="index" align="center" label="序号"></el-table-column>
+
                 <!--prop：对应列内容的字段名-->
                 <el-table-column prop="code" label="项目编码" align="center"></el-table-column>
                 <el-table-column prop="name" label="项目名称" align="center"></el-table-column>
@@ -234,13 +235,14 @@
 <script src="../plugins/elementui/index.js"></script>
 <script type="text/javascript" src="../js/jquery.min.js"></script>
 <script src="../js/axios-0.18.0.js"></script>
+
 <script>
     var vue = new Vue({
         el: '#app',
         data: {
             pagination: {//分页相关模型数据
                 currentPage: 1,//当前页码
-                pageSize: 5,//每页显示的记录数
+                pageSize: 10,//每页显示的记录数
                 total: 0,//总记录数
                 queryString: ""//查询条件
             },
@@ -319,9 +321,9 @@
                     }
                 }).then((res) => {
                     if (res.data.result == "SUCCESS") {
-                    //为模型数据赋值，采用双向绑定实现
-                    this.dataList = res.data.data.list;
-                    this.pagination.total = res.data.data.total;//总记录数
+                        //为模型数据赋值，采用双向绑定实现
+                        this.dataList = res.data.data.list;
+                        this.pagination.total = res.data.data.total;//总记录数
                     } else {
                         this.$message.error("查询数据失败")
                     }
@@ -378,7 +380,8 @@
                 this.$confirm("您确认删除吗", "提示", {
                     confirmButtonText: '确定',
                     cancelButtonText: '取消',
-                    type: "warning"}).then(() => {
+                    type: "warning"
+                }).then(() => {
                     axios.get("/checkitem/doDel.do?id=" + row.id).then((res) => {
                         if (res.data.result == "SUCCESS") {
                             //删除成功

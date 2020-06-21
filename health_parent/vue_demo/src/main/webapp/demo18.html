@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全局组件</title>
+</head>
+<body>
+
+
+<script src="https://how2j.cn/study/vue.min.js"></script>
+
+<style>
+    div.product{
+        float:left;
+        border:1px solid lightGray;
+        width:200px;
+        margin:10px;
+        cursor: pointer;
+    }
+</style>
+
+<div id="div1">
+    <product></product>
+    <product></product>
+    <product></product>
+</div>
+
+<script>
+    Vue.component('product', {//全局组件
+        template: '<div class="product" >全局组件</div>'
+    });
+
+    new Vue({
+        el: '#div1'
+    })
+</script>
+
+</body>
+</html>

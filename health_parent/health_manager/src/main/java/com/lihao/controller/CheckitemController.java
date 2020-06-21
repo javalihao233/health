@@ -33,7 +33,7 @@ public class CheckitemController {
     @RequestMapping("/checkitem/getAllCheckitem")
     public ResultEntity getAllCheckitem(
             @RequestParam(defaultValue = "1") int page,
-            @RequestParam(defaultValue = "5") int size,
+            @RequestParam(defaultValue = "8") int size,
             @RequestParam(defaultValue = "") String name) {
         try {
             PageInfo pageInfo = checkitemService.getAllCheckitem(page, size, name);
@@ -53,9 +53,7 @@ public class CheckitemController {
     @RequestMapping("/checkitem/doAdd")
     public ResultEntity doAdd(@RequestBody CheckItem checkItem) {//前段是post请求，数据是json
         try {
-            if (checkItem != null) {
                 checkitemService.doAdd(checkItem);
-            }
             return ResultEntity.successNoData();
         } catch (Exception e) {
             e.printStackTrace();

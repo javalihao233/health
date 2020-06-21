@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>布局篇 计算属性</title>
+    <script src="js/vuejs-2.5.16.js"></script>
+</head>
+<body>
+
+<div id="vue">
+    <p>调用当前时间的方法：{{currentTime1()}}</p>
+    <p>当前时间的计算属性：{{currentTime2}}</p>
+</div>
+
+<script type="text/javascript">
+    var vm = new Vue({
+        el: '#vue',
+        data: {
+            message: 'Hello Vue'
+        },
+        methods: {
+            currentTime1: function () {
+                return Date.now();
+            }
+        },
+        computed: {
+            currentTime2: function () {
+                this.message;
+                return Date.now();
+            }
+        }
+    });
+</script>
+</body>
+</html>

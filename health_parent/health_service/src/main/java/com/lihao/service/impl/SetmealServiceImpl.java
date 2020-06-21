@@ -176,14 +176,21 @@ public class SetmealServiceImpl implements SetmealService {
      *
      * @return
      */
-    @Override
+    @Override  //{"name":"套餐1","value":10},
     public Map<String, Object> getSetmealAndCount() {
-        //1. 获取所有套餐名称
-        List<String> setmealName = setmealMapper.getAllSetmealName();
-
-        //2. 获取所有套餐的预约数量
-//        setmealMapper.getCountByName();
-
+//        //1. 获取所有套餐名称
+//        List<String> setmealName = setmealMapper.getAllSetmealName();
+//
+//        HashMap<String, Object> hashMap = new HashMap<>();
+//
+//
+//        //2. 根据套餐名称获取每个名称的预约数量
+//        for (String s : setmealName) {
+//            Integer num = setmealMapper.getCountByOrderName(s);
+//            hashMap.put("name",s);
+//            hashMap.put("value",num);
+//        }
+//        return hashMap;
         return null;
 
     }
@@ -223,7 +230,6 @@ public class SetmealServiceImpl implements SetmealService {
             }
             checkGroup.setCheckItems(checkItemList);
         }
-
         return setmealById;
     }
 }

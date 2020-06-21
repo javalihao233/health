@@ -58,4 +58,8 @@ public interface SetmealMapper {
      * @return
      */
     Setmeal findById(int id);
+
+    //根据套餐名称查询套餐预约数量
+    @Select("SELECT COUNT(*) FROM t_setmeal ts INNER JOIN t_order t ON ts.`id` = t.`setmeal_id` WHERE NAME = #{s} GROUP BY NAME")
+    Integer getCountByOrderName(String s);
 }

@@ -52,7 +52,6 @@ public class ReportController {
             //************************************
 
 
-
             //4. 封装数据返回前台
             HashMap<String, Object> hashMap = new HashMap<>();
             hashMap.put("months", listMonth);
@@ -66,6 +65,7 @@ public class ReportController {
 
     /**
      * 因为上面用到了  Calendar
+     *
      * @param args
      */
     public static void main(String[] args) {
@@ -82,7 +82,7 @@ public class ReportController {
         System.out.println(i);
 
         //set(int field, int value)   将给定的日历字段设置为给定值。
-        instance.set(Calendar.MONTH,10);
+        instance.set(Calendar.MONTH, 10);
         System.out.println(instance.get(Calendar.MONTH));//10
     }
 
@@ -93,20 +93,8 @@ public class ReportController {
      */
     @RequestMapping("/getSetmealReport")
     public ResultEntity getSetmealReport() {
-        HashMap<String, Object> hashMap = new HashMap<>();
 
-        //1. 获取所有套餐名称
-        List<String> list = setmealService.getAllSetmealName();
-
-        //2. 获取套餐名称及数量
-        List<Map<String, Object>> mapList = new ArrayList<>();
-        Map<String, Object> setmealMap = setmealService.getSetmealAndCount();
-
-        //3. 封装前端需要的数据
-        hashMap.put("setmealNames", list);
-        hashMap.put("setmealCount", mapList);
-
-
-        return ResultEntity.successWithData(hashMap);
+//        return ResultEntity.successWithData(hashMap);
+        return null;
     }
 }

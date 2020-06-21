@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>局部组件</title>
+</head>
+
+
+<body>
+
+<script src="https://how2j.cn/study/vue.min.js"></script>
+
+<style>
+    div.product{
+        float:left;
+        border:1px solid lightGray;
+        width:400px;
+        margin:10px;
+        cursor: pointer;
+    }
+</style>
+
+<div id="div1">
+    <product></product>
+    <product></product>
+    <product></product>
+</div>
+
+<script>
+    new Vue({
+        el: '#div1',
+        components:{'product':{//局部组件定义在  Vue对象里面
+                template:'<div class="product" >局部组件</div>'
+            }
+        }
+    })
+</script>
+
+</body>
+
+
+</html>
+

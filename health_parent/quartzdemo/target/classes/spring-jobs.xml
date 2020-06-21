@@ -14,7 +14,7 @@
 						http://www.springframework.org/schema/context/spring-context.xsd">
     <!-- 注册自定义Job   用于清理redis和清理阿里云垃圾图片-->
     <bean id="jobDemo" class="com.itheima.jobs.JobDemo"/>
-    <!-- 注册自定义Job   用于打扫屋子-->
+    <!-- 注册自定义Job2   用于打扫屋子-->
     <bean id="jobDemo2" class="com.itheima.jobs.JobDemo2"/>
 
 
@@ -26,7 +26,7 @@
         <property name="targetMethod" value="cleanRedisAndAlibb"/>
     </bean>
 
-    <!-- 注册JobDetail,作用是负责通过反射调用指定的Job -->
+    <!-- 注册JobDetail2,作用是负责通过反射调用指定的Job -->
     <bean id="jobDetail2" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
         <!-- 注入目标对象 -->
         <property name="targetObject" ref="jobDemo2"/>
@@ -45,7 +45,7 @@
         </property>
     </bean>
 
-    <!-- 注册一个触发器，指定任务触发的时间 -->
+    <!-- 注册一个触发器2，指定任务触发的时间 -->
     <bean id="myTrigger2" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
         <!-- 注入JobDetail    依赖于注册JobDetail-->
         <property name="jobDetail" ref="jobDetail2"/>

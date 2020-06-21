@@ -430,8 +430,8 @@
 
             // 删除
             handleDelete(row) {
-                alert(row.code)
-                alert(row.ids)
+                alert(row.code);
+                alert(row.ids);
                 this.$confirm("您确定要删除", "提示", {type: "warning"}).then(() => {
 
                     axios.get("/checkgroup/doDel.do?id=" + row.id).then((res) => {
