@@ -66,31 +66,43 @@
     <div class="app-container">
         <div class="box">
             <div class="filter-container">
-                <el-input placeholder="编码/名称/助记码" v-model="pagination.queryString" style="width: 200px;" class="filter-item" @keyup.enter.native="handleFilter"></el-input>
+                <el-input placeholder="编码/名称" v-model="pagination.queryString" style="width: 200px;" class="filter-item" @keyup.enter.native="handleFilter"></el-input>
                 <el-button @click="findPage()" class="dalfBut">查询</el-button>
+
                 <el-button type="danger" @click="delBatch()" class="dalfBut">批量删除</el-button>
+
                 <el-button type="primary" class="butT" @click="handleCreate()">新建</el-button>
             </div>
 
             <el-table size="small" ref="multipleTable" current-row-key="id" :data="dataList" stripe highlight-current-row>
+
                 <!--type:selection         多选框-->
+
+                <!--实现多选非常简单: 手动添加一个el-table-column，设type属性为selection即可；
+                默认情况下若内容过多会折行显示，若需要单行显示可以使用show-overflow-tooltip属性，
+                它接受一个Boolean，为true时多余的内容会在 hover 时以 tooltip 的形式显示出来-->
                 <el-table-column prop="ids" type="selection" width="55"></el-table-column>
+
                 <el-table-column type="index" align="center" label="序号"></el-table-column>
                 <el-table-column prop="code" label="检查组编码" align="center"></el-table-column>
                 <el-table-column prop="name" label="检查组名称" align="center"></el-table-column>
+
                 <el-table-column label="适用性别" align="center">
                     <template slot-scope="scope">
                         <span>{{ scope.row.sex == '0' ? '不限' : scope.row.sex == '1' ? '男' : '女'}}</span>
                     </template>
                 </el-table-column>
+
                 <el-table-column prop="helpCode" label="助记码" align="center"></el-table-column>
                 <el-table-column prop="remark" label="说明" align="center"></el-table-column>
+
                 <el-table-column label="操作" align="center">
                     <template slot-scope="scope">
                         <el-button type="primary" size="mini" @click="handleUpdate(scope.row)">编辑</el-button>
                         <el-button size="mini" type="danger" @click="handleDelete(scope.row)">删除</el-button>
                     </template>
                 </el-table-column>
+
             </el-table>
 
 
@@ -430,8 +442,6 @@
 
             // 删除
             handleDelete(row) {
-                alert(row.code);
-                alert(row.ids);
                 this.$confirm("您确定要删除", "提示", {type: "warning"}).then(() => {
 
                     axios.get("/checkgroup/doDel.do?id=" + row.id).then((res) => {
@@ -449,9 +459,9 @@
 
             // 批量删除
             delBatch(){
-                // const length = this.multipleTable.length;
+                alert(this.dataList.ids);
                 // alert(length)
-                alert("没做出来")
+                // alert("没做出来，没看懂elementUI他的这个多选框")
             }
         }
     })
