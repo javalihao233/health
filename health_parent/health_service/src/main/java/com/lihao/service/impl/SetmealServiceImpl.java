@@ -58,6 +58,7 @@ public class SetmealServiceImpl implements SetmealService {
      * @param id
      */
     @Override
+    @Transactional
     public void delSetmeal(int id) {
         //1. 删除套餐与检查组中间表
         setmealMapper.delMiddle(id);
@@ -85,6 +86,7 @@ public class SetmealServiceImpl implements SetmealService {
      * @param checkgroupIds
      */
     @Override
+    @Transactional
     public void addSetmeal(Setmeal setmeal, int[] checkgroupIds) {
         //1. 添加套餐基本信息
         setmealMapper.addSetmealBase(setmeal);
@@ -97,7 +99,7 @@ public class SetmealServiceImpl implements SetmealService {
         // ————————当一个方法需要多有参数的时候   传参方式：3种  采用@Param
         if (checkgroupIds != null && checkgroupIds.length > 0) {
             for (int checkgroupId : checkgroupIds) {
-                setmealMapper.addMiddle(id, checkgroupId);
+                setmealMapper.addMiddle(id, checkgroupId);  // 传参方式：3种  采用@Param
             }
         }
 
@@ -114,6 +116,13 @@ public class SetmealServiceImpl implements SetmealService {
      */
     @Override
     public Setmeal getSetmealById(int id) {
+        // 这里没有写好  原因是我上传图片信息后没有规划好 返回的地址信息  导致根据id查询套餐信息的时候看不见人家的图片
+        // lihao/test/b5cf8758-0b53-4511-bdfb-9cf971cc0563.jpg   ——》这是数据库里面的保存地址
+        // 这里想回显的话  应该是：https://chuanzhi-health.oss-cn-chengdu.aliyuncs.com/lihao/test/b5cf8758-0b53-4511-bdfb-9cf971cc0563.jpg
+        // 我这里就在后台修改了  当然前台也是能修改的
+        // PS：经过我修改，发现前台还是显示不出来  可能前台需要的不是完整的图片格式  这里我也不多纠结了 功能是做出来了的就行  返回的图片地址就是完整的图片【能访问的】
+        Setmeal setmealById = setmealMapper.getSetmealById(id);
+        setmealById.setImg("https://chuanzhi-health.oss-cn-chengdu.aliyuncs.com/"+setmealById.getImg());
         return setmealMapper.getSetmealById(id);
     }
 

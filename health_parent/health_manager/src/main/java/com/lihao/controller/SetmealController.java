@@ -60,7 +60,7 @@ public class SetmealController {
     }
 
     /**
-     * 根据id删除套餐信息
+     * 根据id删除套餐信息 能删除   但是没有完善他跟订单表的关系    如果有订单是买的套餐  那么该套餐是不能删除的
      *
      * @param id
      * @return
@@ -93,7 +93,7 @@ public class SetmealController {
     }
 
     /**
-     * 添加套餐信息
+     * 添加套餐信息        涉及图片上传
      *
      * @param setmeal
      * @param checkgroupIds

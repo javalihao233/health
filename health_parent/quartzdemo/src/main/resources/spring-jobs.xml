@@ -14,8 +14,7 @@
 						http://www.springframework.org/schema/context/spring-context.xsd">
     <!-- 注册自定义Job   用于清理redis和清理阿里云垃圾图片-->
     <bean id="jobDemo" class="com.itheima.jobs.JobDemo"/>
-    <!-- 注册自定义Job2   用于打扫屋子-->
-    <bean id="jobDemo2" class="com.itheima.jobs.JobDemo2"/>
+
 
 
     <!-- 注册JobDetail,作用是负责通过反射调用指定的Job -->
@@ -26,13 +25,6 @@
         <property name="targetMethod" value="cleanRedisAndAlibb"/>
     </bean>
 
-    <!-- 注册JobDetail2,作用是负责通过反射调用指定的Job -->
-    <bean id="jobDetail2" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
-        <!-- 注入目标对象 -->
-        <property name="targetObject" ref="jobDemo2"/>
-        <!-- 注入目标方法 -->
-        <property name="targetMethod" value="cleanRoom"/>
-    </bean>
 
 
     <!-- 注册一个触发器，指定任务触发的时间 -->
@@ -45,18 +37,6 @@
         </property>
     </bean>
 
-    <!-- 注册一个触发器2，指定任务触发的时间 -->
-    <bean id="myTrigger2" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
-        <!-- 注入JobDetail    依赖于注册JobDetail-->
-        <property name="jobDetail" ref="jobDetail2"/>
-        <!-- 指定触发的时间，基于Cron表达式 -->
-        <property name="cronExpression">
-            <value>0/5 * * * * ?</value>
-        </property>
-    </bean>
-
-
-
 
     <!-- 注册一个统一的调度工厂，通过这个调度工厂调度任务 -->
     <bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
@@ -64,7 +44,6 @@
         <property name="triggers">
             <list>
                 <ref bean="myTrigger"/>
-                <ref bean="myTrigger2"/>
             </list>
         </property>
     </bean>

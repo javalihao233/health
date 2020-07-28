@@ -55,13 +55,14 @@ public class OrderSettingServiceImpl implements OrderSettingService {
 //        数据库设计的 orderDate字段是  date类型
         List<OrderSetting> list = orderSettingMapper.getMonthOrderSettingByDate(month_first, month_end);
 
-        List<Map> mapList = new ArrayList<Map>();
+        List<Map> mapList = new ArrayList<Map>();//用于封装数据给前台
+
         for (OrderSetting orderSetting : list) {
 
-//            这里要说一下前端需要的参数：    日期：int类型    改日可预约数：int       日已预约日数：int
-            int dateTody = orderSetting.getOrderDate().getDate();//获取当日日期
-            Integer number = orderSetting.getNumber();//获取该日可预约日数
-            Integer reservations = orderSetting.getReservations();//获取该日已预约日数
+//            这里要说一下前端需要的参数：    日期：int类型    改日可预约数：int       该日已预约日数：int
+            int dateTody = orderSetting.getOrderDate().getDate();//日期   int类型
+            Integer number = orderSetting.getNumber();//获取该日可预约日数    int类型
+            Integer reservations = orderSetting.getReservations();//获取该日已预约日数  int类型
 
             //将数据封装成map    list里面存的是map对象
             HashMap<String, Object> hashMap = new HashMap<String, Object>();

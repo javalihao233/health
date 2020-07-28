@@ -55,6 +55,7 @@ public class CheckGroupServiceImpl implements CheckGroupService {
      * @param checkitemIds
      */
     @Override
+    @Transactional
     public void doAdd(CheckGroup checkGroup, Integer[] checkitemIds) {
         //添加检查组基本信息
         checkGroupMapper.addCheckGroup(checkGroup);
@@ -65,6 +66,7 @@ public class CheckGroupServiceImpl implements CheckGroupService {
         //添加检查组对应的检查项信息 ————————中间表
         //当新增一个检查组，对应的需要新增其对应的检查项
         // ————————当一个方法需要多有参数的时候   传参方式：3种  采用map
+        //这里是不是应该  用hashMap存 checkitemIds 和 checkGroup呢  用动态sql更好？？？？
         for (Integer checkitemId : checkitemIds) {
             HashMap<String, Object> map = new HashMap<>();
             map.put("checkgroup_id", id);
@@ -116,7 +118,7 @@ public class CheckGroupServiceImpl implements CheckGroupService {
 //                map.put("checkgroup_id", id);
 //                map.put("checkitem_id", itemId);
 //                checkGroupMapper.addForMiddle(map); //map传参方式
-                checkGroupMapper.addForMiddle2(id,itemId);  //@Param 传参方式
+                checkGroupMapper.addForMiddle2(id,itemId);  //   这里采用的是 @Param 传参方式
             }
         }
     }

@@ -1,7 +1,9 @@
 package com.lihao.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.lihao.domain.Setmeal;
 import com.lihao.service.MemberService;
+import com.lihao.service.OrderService;
 import com.lihao.service.SetmealService;
 import com.lihao.util.ResultEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,6 +24,9 @@ public class ReportController {
 
     @Reference
     private SetmealService setmealService;
+
+    @Reference
+    private OrderService orderService;
 
     /**
      * 会员折线图
@@ -93,8 +98,27 @@ public class ReportController {
      */
     @RequestMapping("/getSetmealReport")
     public ResultEntity getSetmealReport() {
+        HashMap<String, Object> map = new HashMap<>();
 
-//        return ResultEntity.successWithData(hashMap);
-        return null;
+        //1. 所有套餐名称setmealNames
+        List<String> arrayList = new ArrayList<>();//用于存放套餐名称集合
+        List<Setmeal> list = setmealService.getAllSetmealForPotal();//查询出所有套餐
+        for (Setmeal setmeal : list) {
+            arrayList.add(setmeal.getName());
+        }
+
+        //2. 所有套餐的套餐名称以及数量   {value: 335, name: '直接访问'}
+        List<Map<String, Object>> mapArrayList = new ArrayList<>();
+        for (Setmeal setmeal : list) {
+            HashMap<String, Object> hashMap = new HashMap<>();
+            Integer count = orderService.getCountBySetmealId(setmeal.getId());
+            hashMap.put("name", setmeal.getName());
+            hashMap.put("value", count);
+            mapArrayList.add(hashMap);
+        }
+
+        map.put("setmealNames", arrayList);
+        map.put("setmealCount", mapArrayList);
+        return ResultEntity.successWithData(map);
     }
 }

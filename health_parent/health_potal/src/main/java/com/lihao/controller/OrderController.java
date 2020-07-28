@@ -38,7 +38,7 @@ public class OrderController {
             String telephone = (String) map.get("telephone");
 
             //2. 从redis中获取缓存的验证码  失效时间是5分钟
-            String randomCode_redis = jedisPool.getResource().get("tel");
+            String randomCode_redis = jedisPool.getResource().get(telephone);
 
             //3. 获取用户输入的验证码
             String validateCode_web = (String) map.get("validateCode");
@@ -50,8 +50,6 @@ public class OrderController {
 
 
             //5. 校验成功
-
-
             //5.1 保存预约人相关信息
             map.put("orderType", Order.ORDERTYPE_WEIXIN);//微信预约
 

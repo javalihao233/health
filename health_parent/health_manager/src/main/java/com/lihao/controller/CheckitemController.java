@@ -53,7 +53,7 @@ public class CheckitemController {
     @RequestMapping("/checkitem/doAdd")
     public ResultEntity doAdd(@RequestBody CheckItem checkItem) {//前段是post请求，数据是json
         try {
-                checkitemService.doAdd(checkItem);
+            checkitemService.doAdd(checkItem);
             return ResultEntity.successNoData();
         } catch (Exception e) {
             e.printStackTrace();
@@ -115,7 +115,7 @@ public class CheckitemController {
     }
 
     /**
-     * 获取所有检查项信息
+     * 获取所有检查项信息    测试环境搭建
      *
      * @return
      */

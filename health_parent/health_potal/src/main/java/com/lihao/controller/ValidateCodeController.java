@@ -27,7 +27,7 @@ public class ValidateCodeController {
             String randomCode = CrowdUtils.randomCode(4);//随机验证码
 
             //1. 将验证码存入redis
-            jedisPool.getResource().setex("tel", 5 * 60, randomCode);
+            jedisPool.getResource().setex(telephone, 5 * 60, randomCode);
 
             //2. 发送验证码
             String appCode = "b4b972be537b422194e71d19f525eeef";

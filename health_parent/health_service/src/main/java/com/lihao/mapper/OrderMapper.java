@@ -16,4 +16,7 @@ public interface OrderMapper {
     //保存预约信息
     @Insert("insert into t_order(member_id,orderDate,orderType,orderStatus,setmeal_id)values(#{memberId},#{orderDate},#{orderType},#{orderStatus},#{setmeal_id})")
     void add(Order order);
+
+    @Select("SELECT COUNT(*) FROM t_order WHERE setmeal_id = #{id}")
+    Integer getCountBySetmealId(Integer id);
 }

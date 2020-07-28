@@ -11,6 +11,7 @@
                 name like concat("%",#{name},"%") or code like concat ("%",#{name},"%")
             </if>
         </where>
+        order by id desc
     </select>
 
     <insert id="addCheckGroup" useGeneratedKeys="true" keyProperty="id">

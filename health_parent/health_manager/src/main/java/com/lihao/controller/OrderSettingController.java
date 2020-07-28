@@ -36,7 +36,7 @@ public class OrderSettingController {
     @RequestMapping("/getDays")
     public ResultEntity getMonthOrderSetting(String date) {
         try {
-            List<Map> list = orderSettingService.getMonthOrderSetting(date);
+            List<Map> list = orderSettingService.getMonthOrderSetting(date);  //前台要的：      日期：int类型    改日可预约数：int       日已预约日数：int
             return ResultEntity.successWithData(list);
         } catch (Exception e) {
             e.printStackTrace();
@@ -76,7 +76,7 @@ public class OrderSettingController {
                 }
 
                 //3. 将重新整理封装的excel数据保存到数据库
-                orderSettingService.addOrderSetting(orderSettingList);
+                 orderSettingService.addOrderSetting(orderSettingList);
 
                 return ResultEntity.successNoData();
 
@@ -90,7 +90,7 @@ public class OrderSettingController {
     }
 
     /**
-     * 修改当天可预约人数
+     * 修改当天可预约人数   前提是该日子进行过预约设置
      *
      * @param orderSetting
      * @return
