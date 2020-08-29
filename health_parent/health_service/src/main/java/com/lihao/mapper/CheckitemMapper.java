@@ -29,4 +29,7 @@ public interface CheckitemMapper {
     //    查询所有检查项信息
     @Select("select * from t_checkitem")
     List<CheckItem> getAllCheckItem();
+
+//    List<CheckItem> foreach(@Param("ids") List<Integer> list);
+    List<CheckItem> foreach( List<Integer> list);
 }

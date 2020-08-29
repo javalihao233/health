@@ -14,4 +14,12 @@
         order by id desc
     </select>
 
+
+    <select id="foreach" resultType="CheckItem">
+        select * from t_checkitem where id in
+        <foreach collection="list" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </select>
+
 </mapper>

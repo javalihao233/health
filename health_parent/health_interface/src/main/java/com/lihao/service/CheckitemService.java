@@ -17,4 +17,6 @@ public interface CheckitemService {
     void doEdit(CheckItem checkItem);
 
     List<CheckItem> getAllCheckItem();
+
+    List<CheckItem> foreach(List<Integer> list);
 }

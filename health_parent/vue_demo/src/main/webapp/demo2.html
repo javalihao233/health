@@ -5,14 +5,22 @@
     <title>v-on:click</title>
     <script src="js/vuejs-2.5.16.js"></script>
 </head>
+
+
 <body>
 <div id="app">
+
     {{message}}
+
+
     <!--  @：是v-on的简写方式-->
     <button v-on:click="btn1">vue的onclick</button>
     <button @click="btn2">vue的onclick2</button>
+
 </div>
 </body>
+
+
 <script>
     new Vue({
         el: "#app",

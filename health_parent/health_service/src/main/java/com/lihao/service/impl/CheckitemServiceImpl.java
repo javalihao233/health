@@ -87,4 +87,10 @@ public class CheckitemServiceImpl implements CheckitemService {
     public List<CheckItem> getAllCheckItem() {
         return checkitemMapper.getAllCheckItem();
     }
+
+    @Override
+    public List<CheckItem> foreach(List<Integer> list) {
+        System.out.println(11);
+        return checkitemMapper.foreach(list);
+    }
 }
